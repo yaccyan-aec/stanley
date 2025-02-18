@@ -1,0 +1,241 @@
+﻿#: for mail message
+#: __d('mail','xxxx'); と記述すべし
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2010-04-01 13:14+0900\n"
+"PO-Revision-Date: 2015-01-22 13:56+0900\n"
+"Last-Translator: jsy <dog@jsy.ne.jp>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ja_JP\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+
+####################################################
+#: 共通
+####################################################
+msgid "--- Separator ---"
+msgstr "\n===============================================================\n"
+
+msgid "No reply message"
+msgstr "* Please do not reply to this email.\n"
+
+msgid "System Explanation"
+msgstr "This system is the ASP services that %s offers for \n"
+"the purpose of sending data quickly and safely.\n"
+
+msgid "System Qualification"
+msgstr "[[ Limitation of liability ]]\n"
+"- During this service use, our company cannot take any responsibility for \n"
+"any direct and indirect damage that may occur.\n"
+"- Regarding the contents of files that are sent and received, accuracy, \n"
+"legality, morality, currentness, adequacy, consent or copyright status,  \n"
+"we make no guarantee whatever.\n"
+
+#msgid "MAIL ID　: %s\n"
+#msgstr "メール ID : %s\n"
+
+
+####################################################
+#: 送信メール
+####################################################
+
+#msgid "To:"
+#msgstr "To: %s \n"
+
+msgid "Hello"
+msgstr "Files received from %s .\n"
+
+msgid "Guide"
+msgstr "Please receive from the following URL.\n"
+
+#msgid "Message"
+#msgstr "Message:\n"
+
+#msgid "ID"
+#msgstr "Login ID　：　%s\n"
+
+#msgid "PW"
+#msgstr "Password　:　%s\n"
+
+#msgid "There is no separate mail."
+#msgstr "別便のお知らせはございません。"
+
+#msgid "The password is in a separate mail."
+#msgstr "パスワードは別便にてお送りいたします。"
+
+msgid "time limit"
+msgstr "The Download time limit of the file is %s 24:00 .\n"
+
+msgid "Attention"
+msgstr "Note:\n"
+"For security, we recommend that you change your password  as soon as possible.\n"
+"You are responsible for keeping your password.\n"
+
+msgid "Attention_guest"
+msgstr "For security, we recommend that you change your password as soon as possible.\n"
+"Once you have changed your password by yourself,we will no longer inform you \n"
+"about log-in password when we send you file(s).\n"
+"You are responsible for keeping your password.\n"
+
+
+####################################################
+#: 受信用パスワード
+####################################################
+
+#msgid "Information of password"
+#msgstr "ログインパスワードのお知らせ"
+
+msgid "Password Hello"
+msgstr "This is log-in password to receive file which informed by another mail.\n"
+
+msgid "Pwd expdate"
+msgstr "This password's expiration date is %s.\n"
+
+msgid "Authentication code"
+msgstr "This authentication code's expiration date is %s.\n"
+
+####################################################
+#: 仮パスワード発行
+####################################################
+
+#msgid "Infomation of Temporary Password"
+#msgstr "仮パスワード発行"
+
+msgid "Temporary password notice"
+msgstr "This is a %s system temporary password for resetting.\n"
+"Visit the link below, and proceed for resetting your password.\n"
+
+msgid "For Visitor resetpwd_tmp"
+msgstr "[For client (access via internet)]\n%s\n"
+
+msgid "For Employee resetpwd_tmp"
+msgstr "[For Stanley employee]\n%s\n"
+
+msgid "Attention of Reset Password"
+msgstr "Note:\n"
+"If you are unrelated with this notification, please delete this mail.\n"
+
+####################################################
+#: パスワード再発行
+####################################################
+#msgid "Subject of Password info"
+#msgstr "ログインパスワードのお知らせ"
+
+msgid "Issue password notice"
+msgstr "This is the password used at the login of %s system ."
+
+msgid "Infomation message for Inquirey"
+msgstr "Note:\n"
+"If you are unrelated with this notification mail,\n"
+"please contact us at inquiry page of below link.\n"
+
+####################################################
+#: ユーザ管理：追加
+####################################################
+
+msgid "user_add"
+msgstr "Information of %s user registration."
+
+msgid "user_add msg"
+msgstr "You have been registered to %s .\n"
+"This is mail to inform your login-ID.\n"
+
+msgid ""
+msgstr ""
+
+####################################################
+#: ユーザ管理：変更
+####################################################
+
+msgid "user_edit"
+msgstr "Information of %s user changed."
+
+msgid "user_edit msg"
+msgstr "Your registration of %s has been changed.\n"
+
+####################################################
+#: 承認
+####################################################
+
+msgid "aprv_apply"
+msgstr "Approval request"
+
+msgid "aprv_o"
+msgstr "Information of approval."
+
+msgid "aprv_ok message"
+msgstr "The following data transmission has been approved.\n"
+"The status of the sent files can be checked at any time on your inbox tray."
+#" a tray, in, it can be checked.\n"
+
+msgid "aprv_ng message"
+msgstr "The following data transmission has been rejected.\n"
+"The reason of the rejection is descrived on Reason below."
+
+msgid "aprv_user : %s\n"
+msgstr "Decision person : %s\n"
+
+msgid "aprv_reason : %s\n"
+msgstr "Reason : %s\n"
+
+####################################################
+#: 期限切れ間近のお知らせメール
+#: （↓だれか英語にして）
+####################################################
+
+msgid "alert_exp"
+msgstr "Your account is going to be expired soon"
+
+msgid "Message of Expdate Alert Mail"
+msgstr "%s \n\n"
+"Your account for %s is going to be expired in some days. \n\n"
+"Expiration date is %s \n\n"
+"We recommend you to proceed the extension process soon. \n\n"
+"Try to log in to the following URI and conform it. \n\n%s\n"
+
+msgid "alert_expend"
+msgstr "Your account has been already expired. "
+
+msgid "Message of Expdate End Alert Mail"
+msgstr "%s \n\n"
+"We are sorry, but your account for %s has been already expired. \n\n"
+"You need to proceed the extension process, if you use this system again. \n\n"
+"Try to log in to the following URI and you may proceed the extension process. \n\n%s\n"
+
+####################################################
+#: ロックアウト関連
+####################################################
+
+# ---- ロック解除申請　（管理者へのメールなので日本語のみでよいのでは）
+
+msgid "lo_apply notice"
+msgstr "ファイル転送サービス　%s において、セキュリティのため、\n"
+"ログインＩＤがロックされましたので、ロック解除を申請いたします。"
+
+# ---- ロック解除通知　（↓英語は手抜きです。適当に直してください）
+
+msgid "lo_notify"
+msgstr "Information of lockout release"
+
+msgid "lo_notify_p"
+msgstr "Information of lockout release"
+
+msgid "lo_notify notice"
+msgstr "Your account was unlocked successfully.\n"
+
+msgid "abort_pscan"
+msgstr "Information of PSCAN Timeout"
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+

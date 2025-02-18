@@ -1,0 +1,466 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2010-04-01 13:14+0900\n"
+"PO-Revision-Date: 2015-01-22 13:56+0900\n"
+"Last-Translator: jsy <dog@jsy.ne.jp>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ja_JP\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+
+
+####################################################
+#: 共通
+####################################################
+
+msgid "--- Separator ---"
+msgstr "\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+
+msgid "No reply message"
+msgstr "※　このメールに返信しないでください。\n"
+
+msgid "System Explanation"
+msgstr "本システムは「安全」に「早く」データをお届けすることを目的に\n"
+"%s が提供しているASPサービスです。\n"
+
+msgid "System Qualification"
+msgstr "《 免責事項 》\n"
+"＠本サービスご利用中に、お客様において発生した直接・間接の損害に対し、\n"
+"　当社はいかなる責任も負いません。\n"
+"＠送受信されるファイルの内容につきましては、その正確性、合法性、\n"
+"　道徳性、最新性、適切性及び著作権の許諾や有無など、\n"
+"　その内容については一切の保証を致しかねます。\n"
+
+msgid "MAIL ID　: %s\n"
+msgstr "メール ID : %s\n"
+
+####################################################
+#: 送信メール
+####################################################
+
+msgid "To: %s\n"
+msgstr "%s 様\n"
+
+msgid "Hello"
+msgstr "%s 様よりファイルが届いております。\n"
+
+msgid "Guide"
+msgstr "以下のURLよりお受け取りください。\n"
+
+msgid "Message :\n"
+msgstr "コメント ：\n"
+
+msgid "Login ID　：　%s\n"
+msgstr "ログインID　：　%s\n"
+
+msgid "Password　:　%s\n"
+msgstr "パスワード　:　%s\n"
+
+msgid "There is no separate mail.\n"
+msgstr "別便のお知らせはございません。\n"
+
+msgid "The password is in a separate mail.\n"
+msgstr "パスワードは別便にてお送りいたします。\n"
+
+msgid "time limit"
+msgstr "ファイルのダウンロード期限は %s 24:00 です。\n"
+
+msgid "Subject : %s\n"
+msgstr "件名 : %s\n"
+
+msgid "Number of files : %d \n"
+msgstr "ファイル数 : %d\n"
+
+msgid "Size in total : %s bytes.\n"
+msgstr "合計サイズ : %d bytes.\n"
+
+msgid "Attention"
+msgstr "セキュリティのため、早めのパスワードの変更をお奨めします。\n"
+"パスワードをお忘れにならないようご注意ください。\n"
+"また、パスワードは他者に知られないようご注意ください。\n"
+
+msgid "Attention_guest"
+msgstr "セキュリティのため、早めのパスワードの変更をお奨めします。\n"
+"なお、ご自身でパスワード変更なさった後は、\n"
+"ファイルお届け時のログインパスワードのお知らせはございません。\n"
+"パスワードをお忘れにならないようご注意ください。\n"
+"また、パスワードは他者に知られないようご注意ください。\n"
+
+####################################################
+#: 受信用パスワード
+####################################################
+
+msgid "Information of password"
+msgstr "ログインパスワードのお知らせ"
+
+msgid "Password Hello"
+msgstr "ログインパスワードをお知らせいたします。\n"
+
+msgid "Pwd expdate"
+msgstr "なお、このパスワードは %s まで有効です。\n"
+
+####################################################
+#: 認証コード（仮パスワード）発行
+####################################################
+
+msgid "Infomation of Temporary Password"
+msgstr "認証コード発行"
+
+msgid "Temporary password notice"
+msgstr "%s システムより、パスワード発行のための認証コードをお知らせします。\n"
+"パスワードを発行するには、以下の URL にアクセスして作業を続行してください。\n"
+
+msgid "For Visitor resetpwd_tmp"
+msgstr "【お取引先様用（社外接続用）URL】\n%s\n"
+
+msgid "For Employee resetpwd_tmp"
+msgstr "【社内受信者用URL】\n%s\n"
+
+msgid "Authentication Code : %s\n"
+msgstr "認証コード : %s\n"
+
+msgid "URL"
+msgstr "URL : %s\n"
+
+msgid "Attention of Reset Password"
+msgstr "<< ご注意 >>\n"
+"※　このメールにお心当たりがない場合は、このメールを削除してください。\n"
+
+####################################################
+#: パスワード再発行
+####################################################
+
+#msgid "Subject of Password info"
+#msgstr "ログインパスワードのお知らせ"
+
+msgid "Issue password notice"
+msgstr "%s システムのログイン時に使用するパスワードを、以下の通り発行いたしました。\n"
+
+####################################################
+#: 期限延長申請
+####################################################
+
+msgid "exp_apply"
+msgstr "ユーザ有効期限延長申請"
+
+msgid "exp_apply notice"
+msgstr "ファイル転送サービス %s のユーザ有効期限の延長を申請いたします。\n"
+
+msgid "Login ID　:　%s\n"
+msgstr "ログインID　: %s\n"
+
+msgid "Name　： %s\n"
+msgstr "名前 : %s\n"
+
+msgid "Group　： %s\n"
+msgstr "権限 : %s\n"
+
+msgid "Expdate : %s\n"
+msgstr "ユーザ有効期限 : %s\n"
+
+msgid "Division　： %s\n"
+msgstr "所属 : %s\n"
+
+msgid "%s admin"
+msgstr "%s 管理者"
+
+msgid "Infomation message for Inquirey"
+msgstr "※　本メールの内容にお心当たりのない方は、登録を解除いたしますので、\n"
+"　お手数ですが、下記URIで表示される画面の「お問い合わせ」より、ご連絡ください。\n"
+
+
+####################################################
+#: お問い合わせ
+####################################################
+
+msgid "inquiry"
+msgstr "お問い合わせ"
+
+msgid "err_inquiry"
+msgstr "不達メール問い合わせ"
+
+####################################################
+#: ユーザ管理：追加
+####################################################
+
+msgid "user_add"
+msgstr "登録完了のお知らせ"
+
+msgid "user_add msg"
+msgstr "　%s の登録が完了しました。\n"
+"　ログインIDとパスワードをお送りいたします。\n"
+
+####################################################
+#: ユーザ管理：変更
+####################################################
+
+msgid "user_edit"
+msgstr "%s 登録内容変更のお知らせ"
+
+msgid "user_edit msg"
+msgstr "　%s の登録内容を変更しました。\n"
+
+####################################################
+#: 承認
+####################################################
+
+msgid "aprv_apply"
+msgstr "承認依頼のお知らせ"
+
+msgid "aprv_o"
+msgstr "承認のお知らせ"
+
+msgid "aprv_x"
+msgstr "差戻しのお知らせ"
+
+msgid "aprv_apply notice"
+msgstr "%s 様からデータ送信の承認が依頼されました。\n\n"
+"【ご注意】\n"
+"宛先が複数の場合は、すべての宛先に対する「承認」又は「差戻し」となります。\n"
+"下記宛先のうちに、１件でも承認しない宛先がある場合は「差戻し」してください。\n"
+
+msgid "To addresses :"
+msgstr "宛先: "
+
+msgid "Cc addresses :"
+msgstr "CC 宛先: "
+
+msgid "Bcc addresses :"
+msgstr "BCC 宛先: "
+
+msgid "Apply Message :\n"
+msgstr "依頼コメント : \n"
+
+msgid "Approval Expdate : %s \n"
+msgstr "承認期限は %s です。\n"
+
+msgid "Approval Guide"
+msgstr "以下のURLより手続きをお願い致します。"
+
+msgid "aprv_ok message"
+msgstr "以下のデータ送信が承認されました。\n"
+"受信者のファイル受信状況は、随時送信済みトレイにて確認できます。\n"
+
+msgid "aprv_user : %s\n"
+msgstr "承認者 : %s 様\n"
+
+msgid "aprv_reason : %s\n"
+msgstr "理由 : %s\n"
+
+msgid "Download Expdate : %s \n"
+msgstr "ファイルのダウンロード期限は %s です。\n"
+
+msgid "aprv_ng message"
+msgstr "以下のデータ送信が差戻されました。\n"
+"差戻し理由は、下記のコメント欄に記載されています。"
+
+msgid "Rejected by System (Because of Expdate)"
+msgstr "システムにより自動的に差戻されました。(期限切れのため)"
+
+####################################################
+#: 期限切れ間近のお知らせメール
+####################################################
+
+msgid "alert_exp"
+msgstr "期限切れ間近のお知らせ"
+
+msgid "Message of Expdate Alert Mail"
+msgstr "%s 様\n\n"
+"ご利用いただいております　%s が期限間近となっています。\n\n"
+"有効期限は　%s です。\n\n"
+"お早めの延長手続きをお勧めいたします。\n\n"
+"詳細は以下のURIからログインしてご確認ください。\n\n%s\n"
+
+msgid "alert_expend"
+msgstr "期限切れのお知らせ"
+
+msgid "Message of Expdate End Alert Mail"
+msgstr "%s 様\n\n"
+"ご利用いただいております　%s の期限が切れました。\n\n"
+"次回ご利用の際は延長手続きをお願いいたします。\n\n"
+"以下のURIから延長手続きができます。\n\n%s\n"
+
+####################################################
+#: 契約容量を超過したときに発生するアラートメール
+####################################################
+
+msgid "upload_over"
+msgstr "契約容量を超過しました。"
+
+msgid "Message of overflow upload size."
+msgstr "以下の契約につきまして、アップロードサイズが契約容量を超えました。\n\n"
+"契約ID:　%d \n\n"
+"契約名:　%s \n\n"
+"送信者メールアドレス：　%s \n\n"
+"送信者名（権限）：　%s ( %s ) \n\n"
+"契約容量:　%d ギガ / 超過量:　%d byte \n\n"
+
+####################################################
+#: ロックアウト関連
+####################################################
+
+msgid "lo_apply"
+msgstr "%s ロックアウト解除申請"
+
+## 管理者に送られるメールのため日本語だけでよさそう
+msgid "lo_apply notice"
+msgstr "ファイル転送サービス　%s において、セキュリティのため、\n"
+"ログインＩＤがロックされましたので、ロック解除を申請いたします。"
+
+msgid "LockoutExpdate : %s\n"
+msgstr "ロックアウト期限 : %s\n"
+
+msgid "None"
+msgstr "なし"
+
+msgid "lo_notify"
+msgstr "ロックアウト解除のご案内"
+
+msgid "lo_notify_p"
+msgstr "ロックアウト解除のご案内"
+
+msgid "lo_notify notice"
+msgstr "ファイル転送サービス　%s において、お知らせいたします。\n\n"
+"以下のログインＩＤにつきまして、ロックを解除いたしましたので、ご案内いたします。\n"
+
+msgid "The password is in a separate mail.\n"
+msgstr "パスワードは別便にてお送りいたします。\n"
+
+msgid "There is no change in the password.\n"
+msgstr "パスワードの変更はございません。\n"
+
+msgid "abort_pscan"
+msgstr "PSCAN タイムアウトのお知らせ"
+
+####################################################
+#: テストメール送信
+####################################################
+
+msgid "Test mail message1."
+msgstr "これは%s様よりテスト送信されたメールです。"
+
+msgid "Test mail message2."
+msgstr "現在のメールサーバ設定画面の設定でよろしければ、実行ボタンを押下して保存してください。　\n"
+"メールサーバ設定がONになっている場合、設定したメールサーバからFTSメールが送信されます。"
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+

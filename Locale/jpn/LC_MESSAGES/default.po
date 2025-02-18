@@ -1,0 +1,2664 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-04-22 13:35+0900\n"
+"PO-Revision-Date: 2014-08-25 17:58+0900\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja_JP\n"
+"X-Generator: Poedit 1.6.8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: c:\\xampp\\htdocs\\fts_v5\\app\n"
+
+msgid "Browser Notice"
+msgstr ""
+"<p class='browsehappy'>お使いのブラウザのバージョンは　<strong>サポート切れ</"
+"strong>　となっています。 <a href='http://browsehappy.com/'>こちら</a> からの"
+"アップグレードをお奨めします。</p>"
+
+#: Controller/ContentsController.php:
+msgid "Input errors."
+msgstr "入力エラーがあります"
+
+msgid "Close"
+msgstr "閉じる"
+
+msgid "Not yet"
+msgstr "公開待ち"
+
+#: Controller/AppController.php:281;295
+msgid "Your password expiration date is ended. Please set new password."
+msgstr "パスワードの有効期限が切れました。新しいパスワードを設定してください。"
+
+#: /Controller/ContentsController.php:257
+msgid "The content was sent."
+msgstr "送信しました。"
+
+#: /Controller/ContentsController.php:260
+msgid "The content was NOT sent."
+msgstr "送信できませんでした。"
+
+#: Controller/StatusesController.php:112
+msgid "The %s has been deleted."
+msgstr "%s を削除しました。"
+
+#: Controller/StatusesController.php:112
+msgid "The %d items has been deleted."
+msgstr "%d 件　削除しました。"
+
+msgid "The items could not be deleted."
+msgstr "削除できませんでした。"
+
+#: Controller/StatusesController.php:114
+msgid "The %s could not be deleted. Please, try again."
+msgstr "%s は削除できませんでした。"
+
+#: Controller/UsersController.php:83
+msgid "Login failed. Invalid word verification."
+msgstr "画像認証に失敗しました。"
+
+#: Controller/UsersController.php:125
+msgid "Login failed. Invalid username or password."
+msgstr "ユーザ ID または パスワードが違います。"
+
+#: Controller/UsersController.php:148
+msgid "Sorry, Your period expired."
+msgstr "認証情報有効期限切れの為、ログインできません。"
+
+msgid "experr1"
+msgstr "認証情報有効期限切れの為、ログインできません。"
+
+#: Controller/Component/DataCheckComponent.php:242;337;365
+msgid "権限がありません"
+msgstr ""
+
+#: Controller/Component/DataCheckComponent.php:247;279
+msgid "経路チェックエラー"
+msgstr ""
+
+#: Controller/Component/DataCheckComponent.php:276
+msgid "手打ちは不可"
+msgstr ""
+
+#: /View/Users/index.ctp:55
+msgid "custom_01"
+msgstr "社員ID"
+
+#: /View/Users/index.ctp:56
+msgid "custom_02"
+msgstr "社名"
+
+#: /View/Users/index.ctp:58
+msgid "Name_yomi"
+msgstr "名前ふりがな"
+
+#: /View/Users/index.ctp:60
+msgid "Div_yomi"
+msgstr "所属ふりがな"
+
+#: /View/Users/index.ctp:111
+msgid "change password"
+msgstr "パスワード変更"
+
+#: /View/Users/index.ctp:121
+msgid "edit"
+msgstr "編集"
+
+#: /View/Users/index.ctp:164
+#: /View/Users/myaccount.ctp:86
+msgid "Unlimited"
+msgstr "無期限"
+
+msgid "Not specify (indefinite)"
+msgstr "指定しない(無期限)"
+
+msgid "Addressbooks"
+msgstr "アドレス"
+
+msgid "addressgroup"
+msgstr "アドレス帳"
+
+msgid "add"
+msgstr "追加"
+
+msgid "add new"
+msgstr "新規追加"
+
+msgid "Import"
+msgstr "インポート"
+
+msgid "Export"
+msgstr "エクスポート"
+
+msgid "Sort"
+msgstr "並べ替え"
+
+msgid "Addressgroup"
+msgstr "アドレス帳"
+
+msgid "Select all"
+msgstr "全選択"
+
+msgid "Cancel all"
+msgstr "全解除"
+
+msgid "Yes"
+msgstr "はい"
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "send to this address"
+msgstr "このアドレスに送信"
+
+#: Plugin/Addressbooks/View/Addressbooks/index.ctp:116
+#: View/Contents/edit.ctp:75 View/Contents/index.ctp:40;93
+#: View/Contents/view.ctp:155;208;265;313;368;425;489;564
+#: View/Roles/add.ctp:20 View/Roles/edit.ctp:21 View/Roles/index.ctp:16;54
+#: View/Roles/view.ctp:62;86 View/Statuses/add.ctp:21
+#: View/Statuses/edit.ctp:22 View/Statuses/index.ctp:60
+#: View/Themed/New/Addressbooks/index.ctp:116
+#: View/Themed/New/Contents/index.ctp:63 View/Themed/New/Statuses/index.ctp:61
+#: View/Users/add.ctp:34 View/Users/edit.ctp:35
+#: View/Users/view.ctp:137;191;242;305;378;433;474;516;578;636;676
+msgid "Actions"
+msgstr "操作"
+
+#: Plugin/Addressbooks/View/Addressbooks/index.ctp:119
+#: View/Contents/view.ctp:422;543 View/Roles/view.ctp:9;78
+#: View/Themed/New/Addressbooks/index.ctp:119
+#: View/Themed/New/Users/chg_my_pwd.ctp:17 View/Users/chg_my_pwd.ctp:17
+#: View/Users/view.ctp:9;177;236;513
+msgid "Name"
+msgstr "名前"
+
+msgid "Name(%s)"
+msgstr "名前(%s)"
+
+msgid "Name_Jpn"
+msgstr "名前（日本語）"
+
+msgid "Name_Eng"
+msgstr "名前（英語）"
+
+msgid "Is Shared"
+msgstr "共有"
+
+#: Plugin/Addressbooks/View/Addressbooks/index.ctp:121;123
+#: View/Themed/New/Addressbooks/index.ctp:121;123 View/Users/view.ctp:19;179
+msgid "Division"
+msgstr "所属"
+
+msgid "Division(%s)"
+msgstr "所属(%s)"
+
+msgid "div_jpn"
+msgstr "所属（日本語）"
+
+msgid "div_eng"
+msgstr "所属（英語）"
+
+
+#: Plugin/Addressbooks/View/Addressbooks/index.ctp:160
+#: View/Contents/view.ctp:198 View/Themed/New/Addressbooks/index.ctp:160
+#: View/Users/view.ctp:368
+msgid "Send"
+msgstr "送信"
+
+msgid "Edit again"
+msgstr "再編集"
+
+#: Plugin/Addressbooks/View/Addressbooks/index.ctp:167
+#: View/Contents/edit.ctp:76 View/Contents/index.ctp:82
+#: View/Contents/view.ctp:234;283;330;393;444;521;594
+#: View/Elements/Content/btn_delete.ctp:4;5 View/Roles/edit.ctp:24
+#: View/Roles/index.ctp:34 View/Roles/view.ctp:102 View/Statuses/edit.ctp:25
+#: View/Statuses/index.ctp:176;177 View/Themed/New/Addressbooks/index.ctp:167
+#: View/Themed/New/Elements/Content/btn_delete.ctp:4;5
+#: View/Themed/New/Statuses/index.ctp:177;178 View/Users/edit.ctp:38
+#: View/Users/view.ctp:215;258;341;404;451;486;535;610;651;690
+msgid "Delete"
+msgstr "削除"
+
+#: Plugin/Addressbooks/View/Addressbooks/index.ctp:170
+#: View/Contents/edit.ctp:76 View/Contents/index.ctp:82
+#: View/Contents/view.ctp:157;234;283;330;393;444;521;594
+#: View/Roles/edit.ctp:24 View/Roles/index.ctp:34 View/Roles/view.ctp:65;102
+#: View/Statuses/edit.ctp:25 View/Statuses/index.ctp:183
+#: View/Themed/New/Addressbooks/index.ctp:170
+#: View/Themed/New/Statuses/index.ctp:184 View/Users/edit.ctp:38
+#: View/Users/view.ctp:140;215;258;341;404;451;486;535;610;651;690
+msgid "Are you sure you want to delete # %s?"
+msgstr "%s を削除します。よろしいですか？"
+
+#: View/Contents/add.ctp:11
+msgid "Add %s"
+msgstr "%s 追加"
+
+#: View/Contents/add.ctp:11 View/Contents/edit.ctp:5
+#: View/Contents/index.ctp:94 View/Contents/view.ctp:3;156;157;159
+msgid "Content"
+msgstr "送信ファイル"
+
+#: View/Contents/add.ctp:15;19;23;30;36;40;44;48;52;57;66
+#: View/Contents/edit.ctp:9;13;17;24;30;34;38;42;46;51;60
+msgid "Required"
+msgstr "必須項目"
+
+#: View/Contents/add.ctp:73 View/Contents/edit.ctp:68
+#: View/Elements/paginator.ctp:97 View/Roles/add.ctp:17 View/Roles/edit.ctp:18
+#: View/Statuses/add.ctp:18 View/Statuses/edit.ctp:19
+#: View/Themed/New/Elements/pagenator.ctp:97
+#: View/Themed/New/Users/chg_my_pwd.ctp:92 View/Users/add.ctp:31
+#: View/Users/chg_my_pwd.ctp:92 View/Users/edit.ctp:32
+msgid "Submit"
+msgstr "実行"
+
+#: View/Contents/edit.ctp:5 View/Contents/view.ctp:156
+msgid "Edit %s"
+msgstr "%s 編集"
+
+#: View/Contents/edit.ctp:77;78;80;82;84;86;88;90;92;94
+#: View/Contents/index.ctp:3;95;97;99;101;103;105;107;109;111
+#: View/Contents/view.ctp:158;160;162;164;166;168;170;172;174;176
+msgid "List %s"
+msgstr "%s - 一覧"
+
+msgid "List"
+msgstr "一覧"
+
+#: View/Contents/edit.ctp:77 View/Contents/index.ctp:3
+#: View/Contents/view.ctp:158
+msgid "Contents"
+msgstr "送信"
+
+#: View/Contents/edit.ctp:78 View/Contents/index.ctp:95
+#: View/Contents/view.ctp:160
+msgid "Users"
+msgstr "ユーザ"
+
+#: View/Contents/edit.ctp:79;81;83;85;87;89;91;93;95
+#: View/Contents/index.ctp:94;96;98;100;102;104;106;108;110;112
+#: View/Contents/view.ctp:159;161;163;165;167;169;171;173;175;177;244;293;340;403;454;531;604
+msgid "New %s"
+msgstr "新規ファイル %s"
+
+#: View/Contents/edit.ctp:79 View/Contents/index.ctp:96
+#: View/Contents/view.ctp:10;161 View/Users/view.ctp:2
+msgid "User"
+msgstr "ユーザ"
+
+#: View/Contents/edit.ctp:80 View/Contents/index.ctp:97
+#: View/Contents/view.ctp:162
+
+msgid "Reserves"
+msgstr "保存データ"
+
+#: View/Contents/edit.ctp:81 View/Contents/index.ctp:98
+#: View/Contents/view.ctp:90;163
+
+msgid "Reserve"
+msgstr "保存データ"
+
+#: View/Contents/edit.ctp:82 View/Contents/index.ctp:99
+#: View/Contents/view.ctp:164;185
+msgid "Errmails"
+msgstr "不達メール"
+
+#: View/Contents/edit.ctp:83 View/Contents/index.ctp:100
+#: View/Contents/view.ctp:165;244
+msgid "Errmail"
+msgstr "不達メール"
+
+#: View/Contents/edit.ctp:90 View/Contents/index.ctp:107
+#: View/Contents/view.ctp:172;409;482 View/Users/view.ctp:571
+msgid "Statuses"
+msgstr ""
+
+#: View/Contents/edit.ctp:91 View/Contents/index.ctp:108
+#: View/Contents/view.ctp:125;173;307;454 View/Users/view.ctp:300
+msgid "Status"
+msgstr "状態"
+
+msgid "status"
+msgstr "状態"
+
+#: View/Contents/edit.ctp:94 View/Contents/index.ctp:111
+#: View/Contents/view.ctp:176;483;537 View/Users/view.ctp:572
+msgid "Uploadfiles"
+msgstr "送信ファイル"
+
+#: View/Contents/edit.ctp:95 View/Contents/index.ctp:112
+#: View/Contents/view.ctp:177;604
+msgid "Uploadfile"
+msgstr "送信ファイル"
+
+#: View/Contents/index.ctp:6 View/Roles/index.ctp:42
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr " 表示範囲 {:start} ～ {:end} 全体の件数 {:count} 件　[ {:page} / {:pages} ページ ]"
+
+#: View/Contents/index.ctp:6 View/Roles/index.ctp:42
+msgid "Showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr " 表示範囲 {:start} ～ {:end} 全体の件数 {:count} 件"
+
+
+#: View/Contents/index.ctp:80
+#: View/Contents/view.ctp:232;281;328;391;442;519;592 View/Roles/index.ctp:32
+#: View/Roles/view.ctp:100
+#: View/Users/view.ctp:213;256;339;402;449;484;533;608;649;688
+msgid "View"
+msgstr "閲覧"
+
+#: View/Contents/index.ctp:81
+#: View/Contents/view.ctp:233;282;329;392;443;520;593 View/Roles/index.ctp:33
+#: View/Roles/view.ctp:101
+#: View/Users/view.ctp:214;257;340;403;450;485;534;609;650;689
+msgid "Edit"
+msgstr "編集"
+
+msgid "Copy"
+msgstr "コピー"
+
+msgid "Display Now"
+msgstr "すぐに公開"
+
+msgid "Hide Now"
+msgstr "すぐに非公開"
+
+msgid "Display"
+msgstr "公開中"
+
+msgid "Hidden"
+msgstr "非公開"
+
+msgid "End"
+msgstr "終了"
+
+msgid "Waiting"
+msgstr "未送信"
+
+msgid "Putdate"
+msgstr "開始日"
+
+msgid "Outdate"
+msgstr "終了日"
+
+msgid "InfoTitle"
+msgstr "タイトル"
+
+msgid "InfoText"
+msgstr "本文"
+
+msgid "Valid"
+msgstr "公開"
+
+msgid "Invalid"
+msgstr "非公開"
+
+msgid "Importance"
+msgstr "重要度"
+
+msgid "Low"
+msgstr "低"
+
+msgid "Middle"
+msgstr "中"
+
+msgid "High"
+msgstr "高"
+
+msgid "Data is not changed."
+msgstr "データは変更できませんでした。"
+
+msgid "Displayed."
+msgstr "公開しました。"
+
+msgid "Hide."
+msgstr "非公開にしました。"
+
+msgid "Invalid %s ."
+msgstr "無効な %s です。"
+
+#: View/Contents/view.ctp:5;189;254;303;350;413;464;541
+#: View/Roles/view.ctp:4;77
+#: View/Users/view.ctp:4;174;233;276;359;422;469;504;553;628;669
+msgid "Id"
+msgstr ""
+
+#: View/Contents/view.ctp:15
+msgid "Please specify your language."
+msgstr "あなたの言語を指定してください。"
+
+msgid "Please specify language."
+msgstr "言語を指定してください。"
+
+msgid "Please input a title."
+msgstr "タイトルを入力してください。"
+
+msgid "Please specify putdate or outdate."
+msgstr "開始日か終了日を指定してください。"
+
+msgid "Please set the outdate after an putdate."
+msgstr "開始日のあとに終了日を指定してください。"
+
+
+#: View/Contents/view.ctp:20 View/Users/view.ctp:279;632
+msgid "Title"
+msgstr "件名"
+
+#: View/Contents/view.ctp:25;472 View/Users/view.ctp:44;182;280;561
+msgid "Lang"
+msgstr "言語"
+
+#: View/Contents/view.ctp:30;365 View/Elements/Search/content_index.ctp:74
+#: View/Elements/Search/status_index.ctp:52 View/Statuses/view.ctp:127
+#: View/Themed/New/Elements/Search/content_index.ctp:74
+#: View/Themed/New/Elements/Search/status_index.ctp:52
+#: View/Themed/New/Statuses/view.ctp:127 View/Users/view.ctp:281
+msgid "Message"
+msgstr "コメント"
+
+msgid "Comment to customer"
+msgstr "取引先様へのコメント"
+
+msgid "Comment to authorizer"
+msgstr "承認依頼メッセージ"
+
+
+#: View/Contents/view.ctp:35;356 View/Users/view.ctp:54;282
+msgid "Expdate"
+msgstr "ファイル期限"
+
+#: View/Contents/view.ctp:45;199;260;308;361;424;465;549
+#: View/Roles/view.ctp:49;83
+#: View/Users/view.ctp:64;184;239;284;369;428;472;515;554;634;675
+msgid "Created"
+msgstr "登録日"
+
+#: View/Contents/view.ctp:50;200;309;362;550 View/Roles/view.ctp:54;84
+#: View/Users/view.ctp:69;185;240;285;370;635
+msgid "Modified"
+msgstr "変更日"
+
+#: View/Contents/view.ctp:55;201;310;363;420;551
+#: View/Users/view.ctp:74;286;371;511
+msgid "Deleted"
+msgstr "削除日"
+
+#: View/Contents/view.ctp:65 View/Users/view.ctp:288
+msgid "Uploadfile Count"
+msgstr "ファイル数"
+
+#: View/Contents/view.ctp:70 View/Users/view.ctp:289
+msgid "Uploadfile Totalsize"
+msgstr "合計サイズ"
+
+#: View/Contents/view.ctp:75 View/Users/view.ctp:290
+msgid "Address Count"
+msgstr "宛先数"
+
+#: View/Contents/view.ctp:80 View/Users/view.ctp:291
+msgid "Address Conf Count"
+msgstr "確認済"
+
+#: View/Contents/view.ctp:135;364 View/Users/view.ctp:302
+#: /View/Elements/Addressgroup/edit.ctp:220
+msgid "Option"
+msgstr "オプション"
+
+#: View/Contents/view.ctp:140 View/Users/view.ctp:303
+msgid "Bcc"
+msgstr "BCC"
+
+#: View/Contents/view.ctp:145 View/Users/view.ctp:304
+msgid "Cc"
+msgstr "Cc"
+
+#: View/Contents/view.ctp:256 View/Elements/Search/status_index.ctp:14
+#: View/Statuses/index.ctp:66 View/Statuses/view.ctp:16
+#: View/Themed/New/Contents/index.ctp:76
+#: View/Themed/New/Elements/Search/status_index.ctp:14
+#: View/Themed/New/Statuses/index.ctp:67 View/Themed/New/Statuses/view.ctp:16
+#: View/Users/view.ctp:424
+msgid "From"
+msgstr "送信者"
+
+#: View/Contents/view.ctp:367;488 View/Users/view.ctp:129;188;241;577
+#: Plugin/Addressbooks/View/Addressgroups/edit.ctp:83;Elements/Addressgroups/edit.ctp:32;
+
+msgid "Etc"
+msgstr "備考"
+
+#: View/Contents/view.ctp:416 View/Users/view.ctp:507
+msgid "Addressbook Id"
+msgstr "アドレス帳ID"
+
+#: View/Contents/view.ctp:417 View/Users/view.ctp:508
+msgid "Downdate"
+msgstr "ダウンロード日"
+
+#: View/Contents/view.ctp:418 View/Users/view.ctp:39;181;509
+msgid "Email"
+msgstr "Eメールアドレス"
+
+#: View/Contents/view.ctp:479 View/Users/view.ctp:124;568
+msgid "Remark"
+msgstr "備考"
+
+#: View/Elements/banner.ctp:7;29 View/Elements/header.ctp:13
+#: View/Elements/Login/login_header.ctp:13 View/Layouts/default.ctp:8
+#: View/Layouts/login.ctp:8 View/Layouts/menu.ctp:8
+#: View/Themed/New/Elements/banner.ctp:4 View/Themed/New/Elements/header.ctp:7
+#: View/Themed/New/Elements/Login/login_header.ctp:7
+#: View/Themed/New/Layouts/default.ctp:8 View/Themed/New/Layouts/login.ctp:8
+#: View/Themed/New/Layouts/menu.ctp:8
+msgid "Online File Transfer Servise"
+msgstr "オンラインファイル送信サービス"
+
+#: View/Elements/header.ctp:41 View/Elements/Login/login_navi.ctp:49
+#: View/Themed/New/Elements/header.ctp:28
+#: View/Themed/New/Elements/Login/login_navi.ctp:41
+msgid "Inquiry"
+msgstr "お問い合わせ"
+
+#: View/Elements/header.ctp:50 View/Themed/New/Elements/header.ctp:37
+msgid "Manual"
+msgstr "マニュアル"
+
+#: View/Elements/header.ctp:63 View/Elements/Login/login_header.ctp:28
+#: View/Themed/New/Elements/header.ctp:46
+#: View/Themed/New/Elements/Login/login_header.ctp:29
+msgid "Japanese"
+msgstr "日本語"
+
+#: View/Elements/header.ctp:66 View/Elements/Login/login_header.ctp:31
+#: View/Themed/New/Elements/header.ctp:49
+#: View/Themed/New/Elements/Login/login_header.ctp:32
+msgid "English"
+msgstr "英語"
+
+#: View/Elements/header.ctp:72 View/Themed/New/Elements/header.ctp:69
+msgid "Logout"
+msgstr "ログアウト"
+
+#: View/Elements/navi.ctp:11;19 View/Themed/New/Elements/navi.ctp:10
+msgid "New"
+msgstr "新規ファイル送信"
+msgid "New "
+msgstr "新規ファイル<br />送信"
+
+#: View/Elements/navi.ctp:25 View/Themed/New/Elements/navi.ctp:20
+msgid "Inbox"
+msgstr "受信トレイ"
+
+#: View/Elements/navi.ctp:34;42 View/Themed/New/Elements/navi.ctp:33
+msgid "Sent"
+msgstr "送信済トレイ"
+
+#: View/Elements/navi.ctp:48;55 View/Themed/New/Elements/navi.ctp:47
+msgid "Address Book"
+msgstr "アドレス帳"
+
+msgid "address book"
+msgstr "アドレス帳"
+
+msgid "Address Group"
+msgstr "アドレス帳"
+
+#:アドレス帳plugin
+#: /View/Addressgroup/edit.ctp:95
+msgid "Parent"
+msgstr "親部門"
+
+#: /View/Addressgroup/edit.ctp:147
+msgid "New Member"
+msgstr "メンバー構成"
+
+#: /View/Elements/Addressgroup/members.ctp:101
+msgid "Add Members"
+msgstr "追加するメンバー"
+
+#: View/Elements/navi.ctp:63;71;79 View/Themed/New/Elements/navi.ctp:58
+msgid "Approval Work flow"
+msgstr "承認"
+
+#: View/Elements/navi.ctp:88;96;104 View/Elements/User/setting.ctp:31
+#: View/Themed/New/Users/control.ctp:31 View/Users/control.ctp:31
+msgid "Returned Mails"
+msgstr "返送メール"
+
+#: View/Elements/navi.ctp:114 View/Elements/User/setting.ctp:2
+#: View/Themed/New/Elements/navi.ctp:79 View/Themed/New/Users/control.ctp:2
+#: View/Users/control.ctp:2
+msgid "Settings"
+msgstr "設定"
+
+#: View/Elements/navi.ctp:124 View/Elements/User/setting.ctp:39
+#: View/Themed/New/Users/control.ctp:39 View/Users/control.ctp:39
+msgid "Modify Account"
+msgstr "アカウント管理"
+
+#: View/Elements/navi.ctp:132;137 View/Elements/User/setting.ctp:47
+#: View/Themed/New/Users/chg_my_pwd.ctp:2 View/Themed/New/Users/control.ctp:47
+#: View/Users/chg_my_pwd.ctp:2 View/Users/control.ctp:47
+msgid "Change Password"
+msgstr "パスワード変更"
+
+#: View/Elements/navi.ctp:143;149 View/Elements/User/setting.ctp:56
+#: View/Themed/New/Users/control.ctp:56 View/Users/control.ctp:56
+msgid "User Management"
+msgstr "ユーザ管理"
+
+#: View/Elements/navi.ctp:155;160 View/Elements/User/setting.ctp:70
+#: View/Themed/New/Users/control.ctp:70 View/Users/control.ctp:70
+msgid "Security"
+msgstr "セキュリティ管理"
+
+#: View/Elements/navi.ctp:167;173 View/Elements/User/setting.ctp:80
+#: View/Themed/New/Users/control.ctp:80 View/Users/control.ctp:80
+msgid "Log"
+msgstr "ログ"
+
+#: View/Elements/navi.ctp:180;186 View/Elements/Login/login_information.ctp:9
+#: View/Elements/User/setting.ctp:90
+#: View/Themed/New/Elements/Login/login_information.ctp:8
+#: View/Themed/New/Users/control.ctp:90 View/Users/control.ctp:90
+msgid "Information"
+msgstr "お知らせ"
+
+#: View/Elements/navi.ctp:192;198
+msgid "Contracts"
+msgstr "契約"
+
+#: View/Elements/navi.ctp:204;210
+msgid "Section"
+msgstr "部門"
+
+msgid "Template"
+msgstr "テンプレート"
+
+#: View/Elements/Content/btn_delete.ctp:11
+#: View/Themed/New/Elements/Content/btn_delete.ctp:11
+msgid ""
+"Are you sure to delete content : %s that you sent? - In case you delete this "
+"content, the receiver can not check it out any more."
+msgstr ""
+
+#: View/Elements/Login/login_human.ctp:12 View/Themed/New/Users/login.ctp:65
+msgid "reload"
+msgstr "再読み込み"
+
+#: View/Elements/Login/login_human.ctp:20 View/Themed/New/Users/login.ctp:60
+msgid "Word Verification"
+msgstr "画像認証文字列"
+
+#: View/Elements/Login/login_navi.ctp:16
+#: View/Themed/New/Elements/Login/login_navi.ctp:16
+msgid "What's System"
+msgstr "%s とは"
+
+#: View/Elements/Login/login_navi.ctp:25
+#: View/Themed/New/Elements/Login/login_navi.ctp:23
+msgid "How to use"
+msgstr "ご利用方法"
+
+#: View/Elements/Login/login_navi.ctp:33
+#: View/Themed/New/Elements/Login/login_navi.ctp:29
+msgid "FAQ"
+msgstr "よくある質問"
+
+#: View/Elements/Login/login_navi.ctp:41
+#: View/Themed/New/Elements/Login/login_navi.ctp:35
+msgid "What's new?"
+msgstr "新着情報"
+
+#: View/Elements/Search/addressbook_index.ctp:19
+#: View/Themed/New/Elements/Search/addressbook_index.ctp:19
+msgid "keyword"
+msgstr "検索文字列"
+
+#: View/Elements/Search/addressbook_index.ctp:35
+#: View/Elements/Search/content_index.ctp:90
+#: View/Elements/Search/status_index.ctp:126
+#: View/Themed/New/Elements/Search/addressbook_index.ctp:35
+#: View/Themed/New/Elements/Search/content_index.ctp:90
+#: View/Themed/New/Elements/Search/status_index.ctp:126
+msgid "Search"
+msgstr "検索"
+
+#: View/Elements/Search/addressbook_index.ctp:40
+#: View/Elements/Search/content_index.ctp:95
+#: View/Elements/Search/status_index.ctp:131
+#: View/Themed/New/Elements/Search/addressbook_index.ctp:40
+#: View/Themed/New/Elements/Search/content_index.ctp:95
+#: View/Themed/New/Elements/Search/status_index.ctp:131
+msgid "Reset"
+msgstr "リセット"
+
+#: View/Elements/Search/content_index.ctp:19
+#: View/Themed/New/Contents/index.ctp:89;92
+#: View/Themed/New/Elements/Search/content_index.ctp:19
+msgid "to_address"
+msgstr "宛先"
+
+#: View/Elements/Content/add_right.ctp:62
+msgid "To address"
+msgstr "宛 先"
+
+#: View/Elements/Content/address_input_select3.ctp:53
+msgid "  Add To"
+msgstr "  宛先追加"
+
+msgid " Add Cc"
+msgstr "  Cc追加"
+
+msgid " Add Ccc"
+msgstr "  Bcc追加"
+
+msgid "to address"
+msgstr "クリックで選択したものを宛先に追加"
+
+msgid "to cc"
+msgstr "クリックで選択したものを Cc に追加"
+
+msgid "to bcc"
+msgstr "クリックで選択したものを Bcc に追加"
+
+#: View/Elements/Search/content_index.ctp:38
+#: View/Elements/Search/status_index.ctp:33 View/Statuses/index.ctp:68
+#: View/Statuses/view.ctp:11 View/Themed/New/Contents/index.ctp:98
+#: View/Themed/New/Contents/view.ctp:21
+#: View/Themed/New/Elements/Search/content_index.ctp:38
+#: View/Themed/New/Elements/Search/status_index.ctp:33
+#: View/Themed/New/Statuses/index.ctp:69 View/Themed/New/Statuses/view.ctp:11
+msgid "Subject"
+msgstr "件名"
+
+#: View/Elements/Search/status_index.ctp:71
+#: View/Themed/New/Contents/view.ctp:26
+#: View/Themed/New/Elements/Search/status_index.ctp:71
+msgid "Sent Date"
+msgstr "送信日時"
+
+#: View/Elements/User/pwd_info.ctp:20
+#: View/Themed/New/Elements/User/pwd_info.ctp:20
+msgid "New password is in a password history."
+msgstr "過去に使用したパスワードです。別のものを指定してください。"
+
+#: View/Roles/view.ctp:79
+msgid "jpn"
+msgstr "日本語"
+
+#: View/Roles/view.ctp:80
+msgid "eng"
+msgstr "英語"
+
+msgid "Please set the language used."
+msgstr "使用言語を設定してください。"
+
+msgid "It will be possible to change it later."
+msgstr "後で変更することができます。"
+
+
+#: View/Statuses/add.ctp:29 View/Statuses/edit.ctp:31 View/Users/add.ctp:42
+#: View/Users/edit.ctp:44 View/Users/view.ctp:147
+msgid "Addressbook"
+msgstr "アドレス"
+
+#: View/Statuses/index.ctp:63 View/Statuses/view.ctp:44
+#: View/Themed/New/Contents/index.ctp:66 View/Themed/New/Statuses/index.ctp:64
+#: View/Themed/New/Statuses/view.ctp:44
+msgid "SentDate"
+msgstr "送信日時"
+
+#: View/Statuses/index.ctp:72 View/Themed/New/Contents/index.ctp:102
+#: View/Themed/New/Statuses/index.ctp:73
+msgid "Numbers"
+msgstr "ファイル数"
+
+#: View/Statuses/index.ctp:77 View/Themed/New/Contents/index.ctp:104
+#: View/Themed/New/Statuses/index.ctp:78
+msgid "Tsize"
+msgstr "合計サイズ"
+
+#: View/Statuses/index.ctp:82 View/Statuses/view.ctp:56
+#: View/Themed/New/Statuses/index.ctp:83 View/Themed/New/Statuses/view.ctp:56
+msgid "State"
+msgstr "状態"
+
+#: View/Statuses/index.ctp:85 View/Statuses/view.ctp:49
+#: View/Themed/New/Contents/index.ctp:114;120
+#: View/Themed/New/Contents/view.ctp:31 View/Themed/New/Statuses/index.ctp:86
+#: View/Themed/New/Statuses/view.ctp:49
+#: View/Contracts/set_user.ctp:51
+#: View/User/myaccount.ctp:51
+msgid "Exp.Date"
+msgstr "有効期限"
+
+msgid "Due date"
+msgstr "有効期限"
+
+#: View/Statuses/index.ctp:132;133 View/Statuses/view.ctp:149;154;163
+#: View/Themed/New/Contents/index.ctp:206;207
+#: View/Themed/New/Statuses/index.ctp:133;134
+#: View/Themed/New/Statuses/view.ctp:149;154;163
+msgid "Reply"
+msgstr "返信"
+
+msgid "Forward"
+msgstr "転送"
+
+#: View/Statuses/index.ctp:260 View/Themed/New/Statuses/index.ctp:261
+msgid "deleted by sender"
+msgstr "送信者が削除しました"
+
+msgid "Deleted by receiver."
+msgstr "受信者が履歴を削除しました"
+
+msgid "Deleted by sender"
+msgstr "送信者が削除"
+
+#: View/Statuses/index.ctp:263 View/Themed/New/Statuses/index.ctp:264
+msgid "Arrival"
+msgstr "新着"
+
+#: View/Statuses/index.ctp:269 View/Themed/New/Contents/index.ctp:382;435
+#: View/Themed/New/Statuses/index.ctp:270
+msgid "Expiration"
+msgstr "期限切れ"
+
+#: View/Statuses/index.ctp:275 View/Themed/New/Contents/index.ctp:369;422
+#: View/Themed/New/Statuses/index.ctp:276
+msgid "Received"
+msgstr "済"
+
+#: View/Statuses/view.ctp:1 View/Themed/New/Contents/view.ctp:1
+#: View/Themed/New/Statuses/view.ctp:1
+msgid "Received File"
+msgstr "受信ファイル"
+
+#: View/Statuses/view.ctp:60 View/Themed/New/Contents/index.ctp:364;417
+#: View/Themed/New/Statuses/view.ctp:60
+msgid "Posted"
+msgstr "未読"
+
+#: View/Statuses/view.ctp:68 View/Themed/New/Contents/view.ctp:110
+#: View/Themed/New/Statuses/view.ctp:68
+msgid "Files"
+msgstr "ファイル"
+
+#: View/Statuses/view.ctp:93;103 View/Themed/New/Contents/view.ctp:123
+#: View/Themed/New/Statuses/view.ctp:93;103
+msgid "Confirm"
+msgstr "確認"
+
+#: View/Statuses/view.ctp:194 View/Themed/New/Contents/view.ctp:233;271
+#: View/Themed/New/Statuses/view.ctp:194
+msgid "Back"
+msgstr "戻る"
+
+#: View/Themed/New/Contents/index.ctp:90
+msgid "Number of people"
+msgstr "人数"
+
+#: View/Themed/New/Contents/index.ctp:107
+msgid "ReceptionStatus"
+msgstr "受信状況"
+
+#: View/Themed/New/Contents/index.ctp:114
+#: View/Themed/New/Contents/view.ctp:177
+msgid "Approval term"
+msgstr "承認期限"
+
+#: View/Themed/New/Contents/index.ctp:278
+msgid "members"
+msgstr "名"
+
+msgid "%d members"
+msgstr "%d 名"
+
+#: View/Themed/New/Contents/index.ctp:393;446
+msgid "Bounced emails."
+msgstr ""
+
+#: View/Themed/New/Contents/view.ctp:39
+msgid "day"
+msgstr "日"
+
+msgid "week"
+msgstr "週間"
+
+msgid "month"
+msgstr "ヶ月"
+
+msgid "year"
+msgstr "年間"
+
+msgid "days"
+msgstr "日間"
+
+msgid "weeks"
+msgstr "週間"
+
+msgid "months"
+msgstr "ヶ月"
+
+msgid "years"
+msgstr "年間"
+
+#: View/Themed/New/Contents/view.ctp:54
+msgid "Destination"
+msgstr "宛先"
+
+#: View/Themed/New/Contents/view.ctp:161
+msgid "Approval Sstatus"
+msgstr "承認ステータス"
+
+#: View/Themed/New/Contents/view.ctp:178
+msgid "Approval Date"
+msgstr "決裁日付"
+
+#: View/Themed/New/Contents/view.ctp:210
+msgid "Comment to sender"
+msgstr "送信者へのコメント"
+
+#: View/Themed/New/Contents/view.ctp:248;256;263
+msgid "Copy and edit"
+msgstr "コピーして送信"
+
+#: View/Themed/New/Elements/navi.ctp:93
+msgid "Bounced Mail"
+msgstr "返送されたメール"
+
+#: View/Themed/New/Users/chg_my_pwd.ctp:13 View/Users/chg_my_pwd.ctp:13
+msgid "Your ID (E-mail)"
+msgstr "あなたの ID(E-mail)"
+
+#: View/Themed/New/Users/chg_my_pwd.ctp:27 View/Users/chg_my_pwd.ctp:27
+msgid "Current Password"
+msgstr "現在のパスワード"
+
+#: View/Themed/New/Users/chg_my_pwd.ctp:36 View/Users/chg_my_pwd.ctp:36
+msgid "Current password do not match, please try again."
+msgstr "現在のパスワードが一致しません。"
+
+#: View/Themed/New/Users/chg_my_pwd.ctp:46 View/Users/chg_my_pwd.ctp:46
+msgid "New Password"
+msgstr "新しいパスワード"
+
+#: View/Themed/New/Users/chg_my_pwd.ctp:62 View/Users/chg_my_pwd.ctp:62
+msgid "New Password(confirm)"
+msgstr "新しいパスワード（確認）"
+
+#: View/Themed/New/Users/chg_my_pwd.ctp:71 View/Users/chg_my_pwd.ctp:71
+msgid "New Passwords do not match, please try again."
+msgstr "新しいパスワードが一致しません。"
+
+#: View/Themed/New/Users/chg_my_pwd.ctp:78 View/Users/chg_my_pwd.ctp:78
+msgid "Notice mail"
+msgstr "通知メール"
+
+#: View/Themed/New/Users/chg_my_pwd.ctp:82 View/Users/chg_my_pwd.ctp:82
+msgid "yes"
+msgstr "する"
+
+#: View/Themed/New/Users/chg_my_pwd.ctp:82 View/Users/chg_my_pwd.ctp:82
+msgid "no (default)"
+msgstr "しない （デフォルト）"
+
+#: View/Themed/New/Users/chg_my_pwd.ctp:103 View/Users/chg_my_pwd.ctp:103
+msgid "Password generate automatically."
+msgstr "パスワード自動生成"
+
+#: View/Themed/New/Users/chg_my_pwd.ctp:114 View/Users/chg_my_pwd.ctp:114
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: View/Themed/New/Users/login.ctp:5 View/Users/login.ctp:6
+msgid "Now can't login because of maintenance."
+msgstr "メンテナンス中につき、ログインできません。"
+
+msgid "Now can't send because of maintenance."
+msgstr "メンテナンス中につき、送信できません。"
+
+#: View/Themed/New/Users/login.ctp:78 View/Users/login.ctp:98
+msgid "Reset Password"
+msgstr "パスワード発行"
+
+
+#: View/Themed/New/Users/login.ctp:89 View/Users/login.ctp:110
+msgid "Accounts will get locked out after %d times attempt of failed logins."
+msgstr ""
+"連続して %d 回、ログインに失敗したり、パスワードを間違えた場合、<br/>サービス"
+"をご利用いただけなくなりますのでご注意ください。"
+
+#: View/Users/view.ctp:14;178;237
+msgid "Name Yomi"
+msgstr "名前 ふりがな"
+
+#: View/Users/view.ctp:24;180
+msgid "Div Yomi"
+msgstr "所属 ふりがな"
+
+#: View/Users/view.ctp:29
+msgid "Password"
+msgstr "パスワード"
+
+#: View/Users/view.ctp:34
+msgid "Group"
+msgstr "権限"
+
+#: View/Users/view.ctp:49
+msgid "Contract"
+msgstr "契約"
+
+#: View/Users/view.ctp:59
+msgid "Lastlogin"
+msgstr "前回ログイン"
+
+#: View/Users/view.ctp:84
+msgid "Is Chgpwd"
+msgstr "パスワード変更"
+
+#: View/Users/view.ctp:109
+msgid "Pwd Expdate"
+msgstr "パスワード期限"
+
+#: Model/Status.php:validation for field email
+msgid "The format is not goodness."
+msgstr "形式が違います。"
+
+#: Model/User.php:validation for field name
+msgid "The blank is not goodness."
+msgstr "必須項目です。"
+
+#: Model/User.php:validation for field name
+msgid "The blank is not goodness.2"
+msgstr "未設定です"
+
+#: Model/User.php:validation for field password
+msgid "Password must be at least %d characters long, please try again."
+msgstr "パスワードは %d 文字以上でなければなりません。"
+
+msgid "Password must %d character or less, please try again."
+msgstr "パスワードは %d 文字以内でなければなりません。"
+
+#: Model/User.php:validation for field email
+msgid "Must be a valid %s ."
+msgstr "%s の形式が正しくありません。"
+
+#: Model/User.php:validation for field email
+msgid "The same password as the present cannot be specified."
+msgstr "現在のパスワードと同じものは指定できません。"
+
+msgid "TO address"
+msgstr "宛先"
+
+msgid "New address"
+msgstr "フリー宛先"
+
+msgid "Add bcc address"
+msgstr "BCC 宛先"
+
+msgid "Add cc address"
+msgstr "CC 宛先"
+
+msgid "Modify %s"
+msgstr "%s 編集"
+
+msgid "Change %s"
+msgstr "%s 変更"
+
+msgid "Confirm %s"
+msgstr "%s 確認"
+
+msgid "Select %s"
+msgstr "%s 選択"
+
+msgid "Account"
+msgstr "アカウント"
+
+msgid "My Password"
+msgstr "MY パスワード"
+
+msgid "My Account"
+msgstr "MY アカウント"
+
+msgid "My Language"
+msgstr "使用言語"
+
+msgid "Registration complete !!"
+msgstr "登録しました。"
+
+msgid "Please select."
+msgstr "選択してください"
+
+
+#: /View/Elements/Content/file_upload_jq.ctp:6
+msgid "Upload (normal)"
+msgstr "ファイルアップロード"
+
+#: /View/Elements/Content/file_upload_jq.ctp:6
+msgid "Upload (flash)"
+msgstr "フラッシュアップロード"
+
+#: /View/Elements/Content/file_upload_jq.ctp:19
+msgid "add file"
+msgstr "ファイル追加"
+
+msgid "Add files..."
+msgstr "ファイル追加"
+
+msgid "Choose upload files."
+msgstr "ファイルを選択して追加"
+
+#: /View/Elements/Content/file_upload_swf.ctp:
+msgid "Files Selected"
+msgstr "選択されたファイル数"
+
+#: /View/Elements/Content/file_upload_swf.ctp:
+msgid "Uploading..."
+msgstr "アップロード中..."
+
+#: /View/Elements/Content/file_upload_swf.ctp:
+msgid "Done."
+msgstr "完了。"
+
+#: /View/Elements/Content/file_upload_swf.ctp:
+msgid "Not Uploaded."
+msgstr "アップロードされませんでした。"
+
+#: /View/Elements/Content/file_upload_swf.ctp:
+msgid "Pending"
+msgstr "処理待ち"
+
+#: /View/Elements/Content/file_upload_swf.ctp:
+msgid "This extension is not permitted."
+msgstr "許可されていない拡張子です。"
+
+msgid "This %s is duplicated."
+msgstr "この %s はすでに登録されています。"
+
+msgid "Preview"
+msgstr "プレビュー"
+
+msgid "Less than the number of registration."
+msgstr "登録数より少なくすることはできません。"
+
+msgid "There is no %s."
+msgstr "%s がありません。"
+
+#: reset password
+msgid "Reset %s"
+msgstr "%s 再発行"
+
+msgid "resetpwd msg 1-a"
+msgstr "パスワード取得用認証コード発行"
+
+msgid "resetpwd msg 1-b"
+msgstr "パスワードの発行手順は以下のように２段階の手順が必要となります。<br/>"
+"<br/>"
+"1) パスワード取得用認証コード（仮パスワード)の発行<br/>"
+"2) パスワード取得用認証コード（仮パスワード)の通知<br/>"
+"3) パスワード取得用認証コード（仮パスワード)を使用した、ログイン用新パスワードの発行（メール）<br/>"
+"4) ログイン用新パスワードの通知（メール）<br/>"
+"<br/>"
+"パスワードの発行手順を進める場合、<br/>"
+"以下のフィールドに ログインID を入力して「発行開始」をクリックしてください。<br/>"
+
+msgid "resetpwd msg 2-a"
+msgstr "<span class='emphasized'>認証コード</span>を発行します。よろしいですか？"
+
+msgid "resetpwd msg 3-a"
+msgstr "<span class='emphasized'>認証コード</span>を発行しました。<br/>"
+"<br/>"
+"<span class='emphasized'>※　ご注意</span><br/><br/>"
+"パスワード発行手順間違いによる、アカウントのロックアウトが多発しております。<br/><br/>"
+"この手順で発行されるパスワードは<span class='emphasized'>パスワード取得用認証コード</span>です。<br/>"
+"%s システムへのログインパスワードではありません。<br/><br/>"
+"通知メール内に記載されたアドレスをクリックし、<br/>"
+"専用ページにてログインパスワード発行手順を進めてください。<br/>"
+
+#msgid "Start"
+#msgstr "発行開始"
+
+msgid "Exit"
+msgstr "終了"
+
+msgid "Please enter a number between %d and %d ."
+msgstr "%d から %d までの値を入れてください。"
+
+msgid "Please supply the number of %s."
+msgstr "%s の値を入れてください。"
+
+msgid "disk size(GB)"
+msgstr "容量（GB）"
+
+msgid "User Number"
+msgstr "ユーザ数"
+
+msgid "Complete !!"
+msgstr "成功しました。"
+
+msgid "Failed ..."
+msgstr "失敗しました。"
+
+#: console
+
+msgid "Maximum of queue data to do."
+msgstr "一度に処理するキューデータの最大数"
+
+msgid "Issue %s"
+msgstr "%s 発行"
+
+msgid "Temp Password"
+msgstr "認証コード"
+
+#: 期限切れ
+msgid "Contract ExpEnd message"
+msgstr "契約期限が切れました。<a href='%s'>継続のご案内はこちら。</a>"
+
+msgid "This service expired."
+msgstr "ユーザ有効期限が切れました。"
+
+msgid "Extension application"
+msgstr "ユーザ有効期限延長を申請する"
+
+#msgid "ExpEnd message"
+#msgstr "申請後、管理者が設定を変更します。しばらくお待ちください。<br>"
+#"<a href='%s' target='_blank'>継続のご案内はこちら。</a>"
+
+msgid "ExpEnd message"
+msgstr "申請後、管理者が設定を変更します。しばらくお待ちください。"
+
+msgid "Extension application of period"
+msgstr "ユーザ有効期限延長の申請"
+
+msgid "Can not apply."
+msgstr "申請できません。"
+
+msgid "Already done."
+msgstr "申請済みです。"
+
+msgid "ExpRenew message"
+msgstr "申請後、管理者が設定を変更します。しばらくお待ちください。"
+
+#msgid "ExpRenew message"
+#msgstr "申請後、管理者が設定を変更します。しばらくお待ちください。<br>"
+#"<a href='%s' target='_blank'>継続のご案内はこちら。</a><br>"
+#"別途指定の申請書を郵送してください。<a href='%s' target='_blank'>申請書用紙 PDF ダウンロード</a>"
+
+#msgid "ExpEnd format download"
+#msgstr "別途指定の申請書を郵送してください。"
+
+#msgid "Download pdf"
+#msgstr "申請書用紙 PDF ダウンロード"
+
+#"<a href='%s' target='_blank'>申請書用紙 PDF ダウンロード</a>"
+
+msgid "Apply"
+msgstr "申請する"
+
+msgid "Start"
+msgstr "開始"
+
+msgid "exprenew msg 2-a"
+msgstr "%s さんのユーザ有効期限延長を申請します。よろしいですか？"
+
+msgid "exprenew msg 2-b"
+msgstr "申請後、管理者が設定を変更します。しばらくお待ちください。<br>"
+"<a href='%s' target='_blank'>申請書用紙 PDF ダウンロード</a><br>"
+
+msgid "Finish"
+msgstr "完了"
+
+msgid "%s characters too long."
+msgstr "%s の文字数が多すぎます。"
+
+msgid "Must be a valid %s."
+msgstr "%s の形式が正しくありません。"
+
+msgid "Mail to user"
+msgstr "メール送信"
+
+msgid "Send notice mail to user (default : No)"
+msgstr "ユーザに通知メールを送信する (デフォルト:　送信しない)"
+
+msgid "Send notice mail to user (default : Yes)"
+msgstr "ユーザに通知メールを送信する (デフォルト:　送信する)"
+
+msgid "Exec"
+msgstr "実行"
+
+msgid "Auto-generation"
+msgstr "パスワード自動設定"
+
+msgid "Auto-generation"
+msgstr "パスワード自動設定"
+
+msgid "When 'mail to user' is checked, it becomes effective."
+msgstr "「メール送信」　をチェックすると有効になります。"
+
+msgid "Cannot send Notice Mail."
+msgstr "通知メールは送信できませんでした。"
+
+msgid "Send Notice Mail."
+msgstr "通知メールを送信しました。"
+
+msgid "Batch"
+msgstr "選択したものを一括で"
+
+msgid "List effective items"
+msgstr "有効なものだけ見る"
+
+msgid "List all items"
+msgstr "期限切れも見る"
+
+msgid " is delete. ok?"
+msgstr " を削除します。よろしいですか？"
+
+msgid "Add new mail address"
+msgstr "宛先メールアドレスを追加"
+
+msgid "Add to Address"
+msgstr "アドレス帳を追加"
+
+#: Controller/StatusesController.php:112
+msgid "Deleted."
+msgstr "削除しました。"
+
+#: Controller/StatusesController.php:114
+msgid "Could not be deleted."
+msgstr "削除できませんでした。"
+
+msgid "(contract finished)"
+msgstr "（契約切れ）"
+
+msgid "Send to this members"
+msgstr "メンバー全員に送信"
+
+msgid "Copy Address"
+msgstr "宛先をコピー"
+
+msgid "Send error"
+msgstr "メール送信に失敗した可能性があります。"
+
+msgid "Send failure"
+msgstr "メール送信に失敗しました。"
+
+msgid "History"
+msgstr "システム変更履歴"
+
+msgid "Lockout"
+msgstr "ロックアウト"
+
+msgid "userExpdate"
+msgstr "ユーザ有効期限"
+
+msgid "pwdHistory"
+msgstr "パスワード履歴"
+
+msgid "Only expiration users"
+msgstr "期限切れだけ見る"
+
+msgid "All users"
+msgstr "すべて見る"
+
+msgid "Only lockout users"
+msgstr "ロックアウト中だけ見る"
+
+#: msgid "Extends limit"
+#: msgstr "期限を延長する"
+
+msgid "Change expdate"
+msgstr "有効期限を変更する"
+
+msgid "Can't change expdate because of contract expiration."
+msgstr "契約期限切れのため変更できません"
+
+msgid "Applied"
+msgstr "申請済"
+
+msgid "Password expiration"
+msgstr "パスワード期限切れ"
+
+msgid "Contract expiration"
+msgstr "契約期限切れ"
+
+msgid " OK "
+msgstr "有効"
+
+msgid "This file can't download because the file is not found."
+msgstr "ファイルが見つからないためダウンロードできません。"
+
+msgid "This file can't download for the expiration."
+msgstr "期限切れのためダウンロードできません。"
+
+msgid "This file can't download because cancelled."
+msgstr "送信者が削除したためダウンロードできません。"
+
+msgid "File is not found."
+msgstr "ファイルが見つかりません。"
+
+msgid "File is out of date."
+msgstr "ファイル期限切れです。"
+
+msgid "Cancelled from sender."
+msgstr "送信者が削除しました。"
+
+msgid "When you'd like to see confirmation screen, please check."
+msgstr "確認画面を見たいときはチェックしてください"
+
+msgid "Show"
+msgstr "見る"
+
+msgid "Hide"
+msgstr "隠す"
+
+msgid "Could not get %s."
+msgstr "%s を取得できませんでした。"
+
+msgid "Display switch"
+msgstr "表示切替"
+
+msgid "Extended"
+msgstr "延長"
+
+msgid "No files"
+msgstr "ファイルはありません"
+
+msgid "Password history"
+msgstr "パスワード履歴"
+
+## for example :
+## $theme = 'default';
+## __d($theme,'Agreement');
+##
+
+msgid "Agreement"
+msgstr "機密保持誓約"
+
+msgid "Agreement document"
+msgstr "<h4>機密保持誓約</h4>"
+"ここでダウンロードされるデーターは %1\$s の重要な機密情報です。<br>"
+"データーのダウンロードを許可できる方は下記事項に同意できる方のみです。<br>"
+"<br>"
+"1．ダウンロードしたデーターは当社との契約目的以外に使用しないこと。<br>"
+"2．ダウンロードしたデーターは当社の許可なく第三者に開示しないこと。<br>"
+"3．ダウンロードしたデーターは漏洩・盗難・紛失を避けるため厳重に管理すること。<br>"
+"<br> "
+"<br> "
+"<ul class='list-inline'>"
+"<li>上記の機密保持に</li>"
+"<li> %2\$s </li>"
+"<li> %3\$s </li>"
+"</ul><br> "
+
+
+msgid "agree"
+msgstr "同意する"
+
+msgid "disagree"
+msgstr "同意できない"
+
+msgid "Agreement Note"
+msgstr "注：上記機密保持に違反した場合は、法律により処罰される場合があります。"
+
+msgid "Not delivered."
+msgstr "送信できませんでした。"
+
+msgid "Nidds3"
+msgstr "ニフコ"
+
+## パスワードセキュリティ
+
+msgid "Your password expiration date is ended. Please set new password."
+msgstr "パスワード期限が切れました。新しいパスワードを登録してください。"
+
+msgid "moji_s"
+msgstr "　パスワードに使用できる文字は半角英数字（大文字、小文字を含む）と<br>"
+"半角記号の ! # $ % & * + - . / : = ? ^ _ が使用可能です。<br>"
+
+msgid "moji_a"
+msgstr "　パスワードに使用できる文字は半角英数字（大文字、小文字を含む）です。<br>"
+
+msgid "(A-Z) (a-z) (0-9)"
+msgstr "パスワードには必ず英大文字・英小文字・数字を最低１文字含めてください。<br>"
+
+msgid "(A-Za-z) (0-9)"
+msgstr "パスワードには必ず英文字・数字を最低１文字含めてください。<br>"
+
+msgid "Length Requirements For Password is %d or more to %d or less.<br>"
+msgstr "全体で %d 桁以上 %d 桁以下にしてください。<br>"
+
+msgid "The password of %d times in the past cannot be used. Please register a new password.<br>"
+msgstr "%d 回前までのパスワードは使用できません。新たなパスワードを登録してください。<br>"
+
+msgid "The validity term of the registered password is %d days.<br>"
+msgstr "登録したパスワードの有効期間は %d 日です。<br>"
+
+msgid "Send to these members."
+msgstr "このメンバーに再送"
+
+msgid "Not found."
+msgstr "見つかりません。"
+
+msgid "mkpass msg 2-a"
+msgstr "%sさんのパスワードを変更します。よろしいですか？"
+
+msgid "mkpass msg 3-a"
+msgstr "パスワードを変更しました。<br>"
+"詳細は送信メールをご確認ください。"
+
+msgid "User.ExpDate"
+msgstr "ユーザ期限"
+
+msgid "Contract.ExpDate"
+msgstr "契約期限"
+
+msgid "User Security"
+msgstr "ユーザセキュリティ"
+
+msgid "Lockout ( Applied )"
+msgstr "ロックアウト（申請中）"
+
+msgid "Expiration ( Applied )"
+msgstr "期限切れ（申請中）"
+
+msgid "Resending"
+msgstr "再発送"
+
+msgid "File deleted."
+msgstr "削除されました"
+
+msgid "FROM address"
+msgstr "送信者"
+
+msgid "Unlock"
+msgstr "解除"
+
+msgid "From　~ "
+msgstr "～　から"
+
+msgid " ~ To"
+msgstr "～　まで"
+
+msgid "Displaying period"
+msgstr "掲載期間"
+
+msgid "Do not put in HTML tags."
+msgstr "HTML タグを入れてはいけません。"
+
+msgid "When contract period is over, the user time limit can't be changed."
+msgstr "契約期限が切れている場合は、ユーザの有効期限を変更できません。"
+
+msgid "Antivirus scan"
+msgstr "アンチウィルス検査"
+
+msgid "Enable"
+msgstr "実施する"
+
+msgid "Addressgroup Tree"
+msgstr "アドレス帳ツリー"
+
+msgid "There are no valid mail addresses."
+msgstr "有効な形式の Eメールアドレス がありません。"
+
+msgid "free_add"
+msgstr "フリー宛先"
+
+msgid "cc"
+msgstr "CC　宛先"
+
+msgid "bcc"
+msgstr "BCC 宛先"
+
+msgid "name"
+msgstr "名前"
+
+msgid "email"
+msgstr "Eメールアドレス"
+
+msgid "(confirm)"
+msgstr "(確認用)"
+
+
+## 承認
+
+msgid "Approval request"
+msgstr "承認依頼"
+
+msgid "Approval to"
+msgstr "承認依頼宛先"
+
+msgid "Approval limit"
+msgstr "承認期限"
+
+msgid "Approval request comment"
+msgstr "承認依頼<br />メッセージ"
+
+msgid "Approval waiting"
+msgstr "承認待ち"
+
+msgid "Approval OK"
+msgstr "承認"
+
+msgid "Approval NG"
+msgstr "却下"
+
+msgid "Approval Request"
+msgstr "承認待ち"
+
+msgid "Reject Confirmation"
+msgstr "差戻し確認"
+
+msgid "Approval history"
+msgstr "承認履歴"
+
+msgid "Rejected"
+msgstr "却下"
+
+msgid "Approved"
+msgstr "承認"
+
+msgid "Before　request"
+msgstr "依頼前"
+
+msgid "Request cancelled"
+msgstr "依頼をキャンセル"
+
+msgid "Send to"
+msgstr "宛先"
+
+msgid "Download"
+msgstr "ダウンロード"
+
+msgid "  Download"
+msgstr "  ダウンロード"
+
+msgid "Approval Result"
+msgstr "判定"
+
+msgid "Delete (treatment as rejection)"
+msgstr "削除　（却下扱い）"
+
+msgid "All chosen requests will be treatment as rejection. Is it OK ?"
+msgstr "選択したリクエストはすべて却下扱いとなります。　よろしいですか？"
+
+msgid "number of records : %d "
+msgstr " %d 件のデータを処理しました。"
+
+msgid "Registration failed ..."
+msgstr "登録に失敗しました。"
+
+msgid "Effective for %d days after approval."
+msgstr "承認後　%d 日間"
+
+msgid "Approval Status"
+msgstr "承認状態"
+
+msgid "Approval at"
+msgstr "決裁者"
+
+msgid "Rejected automatically."
+msgstr "承認期限切れ"
+
+msgid "(Automatically)"
+msgstr "(承認期限切れ)"
+
+msgid "(Expired)"
+msgstr "（期限切れ）"
+
+msgid "(Cancelled)"
+msgstr "（キャンセル）"
+
+msgid "Are you sure you want to delete # %d : %s?"
+msgstr "# %d : %s　を本当に 削除して宜しいですか？"
+
+msgid "ID (E-mail)"
+msgstr "ID (Eメールアドレス)"
+
+msgid "Your ID (E-mail)"
+msgstr "あなたのID<br>(Eメールアドレス)"
+
+msgid "Cancelled."
+msgstr "キャンセルしました。"
+
+msgid "There are addresses which could not be sent."
+msgstr "送信に失敗した宛先があります。"
+
+msgid "Content Status"
+msgstr "送信結果"
+
+msgid "Rejected."
+msgstr "却下しました。"
+
+msgid "It is searched by the whole"
+msgstr "全体から検索する"
+
+msgid "%s conversion Under a receptionist"
+msgstr "%s 変換受付中..."
+
+msgid "%s conversion Under conversion"
+msgstr "%s 変換中"
+
+msgid "%s conversion Conversion error"
+msgstr "%s 変換エラー"
+
+msgid "Finishing of a %s conversion process"
+msgstr "%s 変換済"
+
+msgid "Doing %s conversion process"
+msgstr "%s 変換中"
+
+msgid "Doing"
+msgstr "処理中"
+
+msgid "Unknown"
+msgstr "不明"
+
+msgid "Sstatus"
+msgstr "ステータス"
+
+#: /View/Addressgroups/edit.ctp:200
+msgid "I edit members"
+msgstr ""
+
+#: /View/Addressgroups/member_edit.ctp:5
+msgid "Member"
+msgstr ""
+
+#: /View/Addressgroups/edit.ctp:200
+#: /View/Sections/edit.ctp:182
+msgid "I edit members"
+msgstr "メンバー編集"
+
+#: /View/Addressgroups/member_edit.ctp:5
+#: /View/Sections/member_edit.ctp:5
+msgid "Member"
+msgstr "メンバー"
+
+#: /View/Elements/Addressgroup/bk2members.ctp:4
+#: /View/Elements/Addressgroup/members.ctp:4
+#: /View/Elements/Section/members.ctp:7
+msgid "Current Members"
+msgstr "現在のメンバー"
+
+msgid "Are you sure you want to delete selected items?"
+msgstr "選択したものを削除します。よろしいですか？"
+
+msgid "Show my cases (%d cases)"
+msgstr "自分の担当だけ見る　（%d 件）"
+
+msgid "Show the whole (%d cases)"
+msgstr "全体を見る　（%d 件）"
+
+msgid "Show my cases"
+msgstr "自分の担当だけ見る"
+
+msgid "Show the whole"
+msgstr "全体を見る"
+
+msgid "Self-recognition is not permitted"
+msgstr "自己承認は許可されていません"
+
+#: /View/Elements/Section/groups.ctp:124
+#: /View/Elements/Section/members.ctp:152
+msgid "Select all or cancel"
+msgstr "全て選択 / 解除"
+
+msgid "There are no valid approval addresses."
+msgstr "承認宛先を選択してください。"
+
+msgid "approval_add"
+msgstr "承認依頼"
+
+
+msgid "Can\'t be set beyond the period of a contract."
+msgstr "契約期限を超えて設定することはできません。"
+
+msgid "Please enter in the valid date format."
+msgstr "正しい日付フォーマットで入力してください。"
+
+# '申請済' で定義されている
+#msgid "Applied"
+#msgstr "申請中"
+
+msgid "Change Password expdate(without changing password)"
+msgstr "パスワード有効期限を変更する(パスワード変更なし)"
+
+msgid "Number"
+msgstr "項番"
+
+msgid "Password (Encrypted)"
+msgstr "パスワード（暗号化されたもの）"
+
+msgid "Clear history"
+msgstr "履歴をクリア"
+
+msgid "Are you sure you want to clear %s password history ?"
+msgstr "%s さんのパスワード履歴を削除します。よろしいですか？"
+
+msgid "Copied."
+msgstr "コピーしました。"
+
+msgid "Could not be copied."
+msgstr "コピーできませんでした。"
+
+msgid "Valid ID or temp password."
+msgstr "ログインID または　認証コードが正しくありません。"
+
+msgid "Login id"
+msgstr "ログインID"
+
+msgid "Login"
+msgstr "ログイン"
+
+msgid "%s expired."
+msgstr "%s の期限切れ"
+
+msgid "This user expired."
+msgstr "期限切れになっています。"
+
+msgid "The content has been canceled.　Delete date [%s]."
+msgstr "送信者によりキャンセルされています。 削除日付：　[%s]"
+
+msgid "more"
+msgstr "もっと見る"
+
+msgid "message"
+msgstr "取引先様へのコメント"
+
+msgid "Send New files"
+msgstr "新規ファイル 送信"
+
+msgid "Send Return files"
+msgstr "返送ファイル 送信"
+
+msgid "Action"
+msgstr "操作"
+
+msgid "To"
+msgstr "宛先"
+
+msgid "Sent Items"
+msgstr "送信済トレイ"
+
+msgid "Expired"
+msgstr "期限切れ"
+
+#msgid "Approval Request"
+#msgstr "承認"
+
+msgid "Show all (%d cases)"
+msgstr "全体を見る　（%d 件）"
+
+msgid "waiting"
+msgstr "承認待ち"
+
+msgid "note"
+msgstr "備考"
+
+msgid "Returned mails"
+msgstr "返送メール"
+
+msgid "Sections"
+msgstr "部門"
+
+msgid "Search for all items"
+msgstr "全体から検索する"
+
+msgid " -- All -- "
+msgstr " -- 全体 -- "
+
+msgid "All"
+msgstr "全体"
+
+# 言語設定　jpn , eng 以外
+msgid " --- "
+msgstr "不明"
+
+msgid "This e-mail address is already entered in the %s."
+msgstr "このメールアドレスはすでに%sに入力されています。"
+
+msgid "Please enter e-mail address format."
+msgstr "Eメールアドレス の形式が正しくありません。"
+
+msgid "Please enter e-mail address."
+msgstr "メールアドレスを入力してください。"
+
+msgid "The following history will be deleted. Is it OK ?"
+msgstr "以下の履歴を削除します。よろしいですか？"
+
+msgid "%d items has been deleted. (Out of %d cases)"
+msgstr "%d 件　削除しました。（ %d 件中 ）"
+
+msgid "HTML tags are not reflected."
+msgstr "HTMLタグは反映されません。"
+
+msgid "Own approval"
+msgstr "自己承認"
+
+msgid "Valid ID."
+msgstr "入力されたIDは登録されておりません。"
+
+msgid "New password is doesn't match a rule."
+msgstr "パスワードのルールに適合しません。"
+
+msgid "Changed"
+msgstr "変更日"
+
+# アンチウィルス等（将来の実装）
+
+msgid "Antivirus scan"
+msgstr "アンチウィルス検査"
+
+msgid "Enable"
+msgstr "実施する"
+
+msgid "Needlessness"
+msgstr "不要"
+
+msgid "Scanning result"
+msgstr "スキャン結果"
+
+msgid "AntiVirus_Warning"
+msgstr "警告"
+
+msgid "Encrypt"
+msgstr "ZIP 暗号化"
+
+msgid "Notify Returned Mails"
+msgstr "返送メール通知"
+
+msgid "File keep"
+msgstr "ファイル保管"
+
+msgid "File"
+msgstr "ファイル"
+
+msgid "ExpDate"
+msgstr "有効期限"
+
+msgid "ApprovalDue"
+msgstr "承認期限"
+
+msgid "SubmissionDate"
+msgstr "発信日時"
+
+msgid "The %s remainder days are %d days."
+msgstr "%s 有効期限切れまで残り %d 日です。"
+
+msgid "account's"
+msgstr "ユーザ"
+
+msgid "contract's"
+msgstr "契約"
+
+
+msgid "The guide of continuance is here."
+msgstr "継続のご案内はこちら。"
+
+msgid "There are no effective addresses."
+msgstr "有効なあて先がありません。"
+
+msgid "For 'Approval Work flow From Mail' feature, comments have been omitted."
+msgstr "「メールで承認」機能のため、コメントは省略しています。"
+
+msgid "Delete Confirmation"
+msgstr "一括削除確認"
+
+msgid "The content has been judged.　Date [%s]."
+msgstr "既に決裁が終了しています。 決裁日時 [%s]"
+
+msgid "It can't be registered any more."
+msgstr "これ以上登録できません。"
+
+msgid "character code"
+msgstr "文字コード"
+
+msgid "file format"
+msgstr "ファイル形式"
+
+msgid "Company/Division"
+msgstr "会社/部署"
+
+msgid "Company/Division(%s)"
+msgstr "会社/部署(%s)"
+
+msgid "CSV File"
+msgstr "CSVファイル"
+
+msgid "Update/Skip"
+msgstr "上書き/スキップ"
+
+msgid "Update"
+msgstr "上書き"
+
+msgid "Result"
+msgstr "結果"
+
+msgid "NewRegistration"
+msgstr "新規"
+
+msgid "Error"
+msgstr "エラー"
+
+msgid "UserExpDate"
+msgstr "ユーザー有効期限"
+
+msgid "Imported　data %d."
+msgstr "%d 件　インポートしました。"
+
+msgid "Skip"
+msgstr "スキップ"
+
+msgid "Error number is %d."
+msgstr "エラー件数は　%d 件です。"
+
+msgid "E-mail address is duplicated in this file."
+msgstr "ファイル内に同じEメールアドレスがあります。"
+
+msgid "It's required item!"
+msgstr "必須項目です！"
+
+msgid "Authority is invalid."
+msgstr "登録されていない権限です。"
+
+msgid "%d case is numerous."
+msgstr "データ数が %d 件多いです。"
+
+msgid "%d case is few."
+msgstr "データ数が %d 件少ないです。"
+
+msgid "User count exceeds limit."
+msgstr "ユーザー数の上限を超えています。"
+
+msgid "Name characters too long."
+msgstr "名前の文字数が多すぎます。"
+
+msgid "Name_yomi characters too long."
+msgstr "名前ふりがなの文字数が多すぎます。"
+
+msgid "Division characters too long."
+msgstr "所属の文字数が多すぎます。"
+
+msgid "Div_yomi characters too long."
+msgstr "所属ふりがなの文字数が多すぎます。"
+
+msgid "Must be a valid Email."
+msgstr "Eメールアドレスの形式が正しくありません。"
+
+msgid "Name is a required field."
+msgstr "名前は必須項目です。"
+
+msgid "Email is a required field."
+msgstr "Eメールアドレスは必須項目です。"
+
+msgid "This Email is duplicated."
+msgstr "登録されているEメールアドレスです。"
+
+msgid "Group is a required field."
+msgstr "権限は必須項目です。"
+
+msgid "Language is not among  "jpn"/"eng"/"auto"."
+msgstr "'日本語''英語'または'不明'を入力してください。"
+
+msgid "Export Users"
+msgstr "ユーザエクスポート"
+
+msgid "Import Users"
+msgstr "ユーザインポート"
+
+#: CSV export
+msgid "Export %s"
+msgstr "%s - エクスポート"
+
+#: CSV import
+msgid "Import %s"
+msgstr "%s インポート"
+
+msgid "Import %s Confirm"
+msgstr " %s インポート確認"
+
+msgid "Import %s Confirmation"
+msgstr " %s インポート確認"
+
+msgid "import complete %s"
+msgstr "%s インポート完了"
+
+msgid "Import %s Completion"
+msgstr "%s インポート完了"
+
+msgid "duplicate data"
+msgstr "重複データ"
+
+msgid "import file"
+msgstr "インポートファイル"
+
+msgid "registered　―　skip"
+msgstr "登録済　―　スキップ"
+
+msgid "registered　―　update"
+msgstr "登録済　―　上書き"
+
+msgid "new"
+msgstr "新規"
+
+msgid "records"
+msgstr "件"
+
+msgid "import_confirm_msg"
+msgstr "以下のデータをインポートします。"
+
+msgid "%s is a required field."
+msgstr "%s は必須項目です。"
+
+msgid "%s does not apply."
+msgstr "%s は該当データがありません。"
+
+msgid "all data"
+msgstr "全データ"
+
+msgid "registered num"
+msgstr "登録件数"
+
+msgid "registered"
+msgstr "登録"
+
+msgid "error num"
+msgstr "エラー"
+
+msgid "error"
+msgstr "エラー"
+
+msgid "skip num"
+msgstr "スキップ件数"
+
+msgid "skip"
+msgstr "スキップ"
+
+msgid "understand"
+msgstr "了解"
+
+msgid "Ok"
+msgstr "成功"
+
+msgid "Language selection is not allowed in the page of Import Users Confirmation."
+msgstr "インポート確認画面では言語選択ができません。"
+
+msgid "Leader"
+msgstr "リーダ"
+
+msgid "Link"
+msgstr "メンバー"
+
+msgid "%s is invalid."
+msgstr "%s の形式が正しくありません。"
+
+msgid "uploaded file size is over acceptable size."
+msgstr "ファイルサイズ制限を超えました。"
+
+msgid "Please specify the file."
+msgstr "ファイルを指定して下さい。"
+msgid "Import Users Confirmation"
+msgstr "ユーザインポート確認"
+
+msgid "File not found."
+msgstr "ファイルが見つかりません。"
+
+msgid "Duplicate data"
+msgstr "重複データ"
+
+msgid "Authority is not specified."
+msgstr "権限が指定されていません。"
+
+msgid "Date format is invalid."
+msgstr "日付の形式が正しくありません。"
+
+msgid "EmailAddress Format is invalid."
+msgstr "Eメールアドレスの形式が正しくありません。"
+
+msgid "Data length exceeds %s ."
+msgstr "文字数が半角 %s 文字分を超えています。"
+
+msgid "Password length violates regulation."
+msgstr "パスワード長が規則に適合していません。"
+
+msgid "Jpn"
+msgstr "日本語"
+
+msgid "Eng"
+msgstr "英語"
+
+msgid "Please specify the CSV file of a correct format."
+msgstr "正しい形式のCSVファイルを指定してください。"
+
+msgid "Please specify CSV files of a correct number of columns."
+msgstr "正しいカラム数のCSVファイルを指定してください。"
+
+msgid "Password is not alphanumeric."
+msgstr "パスワードが英数字でありません。"
+
+msgid "EmailAddress Format for %s is invalid."
+msgstr "%s のEメールアドレスの形式が正しくありません。"
+
+msgid "Data length for %s exceeds %d."
+msgstr "%s の文字数が半角 %d 文字分を超えています。"
+
+msgid "Type must 'P' or 'S'."
+msgstr "タイプは 'P' または 'S' でなければなりません。"
+
+msgid "There is no authority to update."
+msgstr "更新する権限がありません。"
+
+msgid "Sortorder"
+msgstr "並び順"
+
+msgid "%s is not numerical value."
+msgstr "%s が数値ではありません。"
+
+msgid "Type to import are different."
+msgstr "インポートするタイプが違います。"
+
+msgid "This member is registered with parsonal."
+msgstr "このメンバーは、個人に登録されています。"
+
+msgid "Import was completed."
+msgstr "インポートが完了しました。"
+
+msgid "Import has completed."
+msgstr "インポートが完了しました。"
+
+msgid "mail address"
+msgstr "アドレス"
+
+msgid "Type"
+msgstr "タイプ"
+
+msgid "Yomi"
+msgstr "名前 ふりがな"
+
+msgid "Div"
+msgstr "会社/部署"
+
+msgid "Divyomi"
+msgstr "所属 ふりがな"
+
+msgid "Divjpn"
+msgstr "会社/部署(日本語)"
+
+msgid "Diveng"
+msgstr "会社/部署(英語)"
+
+#---------------------------------------------------
+#: ロックアウト
+#---------------------------------------------------
+
+msgid "Failed in login authentication."
+msgstr "ログイン認証に失敗しました。"
+
+msgid "Input information is not correct."
+msgstr "入力情報が正しくありません。"
+
+msgid "When you don't apply for release, lock is released after %s."
+msgstr "解除申請を行わなくても、　%s でロックは解除されます。"
+
+msgid "Lockout release application"
+msgstr "ロック解除の申請"
+
+msgid "Login ID is locked."
+msgstr "ログインＩＤがロックされています。"
+
+msgid "Please do the release application clicking the following buttons to release the lock."
+msgstr "ロックを解除するには以下のボタンをクリックして解除申請を行ってください。"
+
+msgid "Unlocking application has been finished."
+msgstr "ロック解除申請は済んでいます。"
+
+msgid "Please wait until an administrator releases lock."
+msgstr "管理者が解除するまでしばらくお待ちください。"
+
+msgid "Resolution"
+msgstr "ロック解除を行うには以下の方法でお願いいたします。"
+
+msgid "Resolution2"
+msgstr "(1)ユーザ権限メンバーにメールや電話等で連絡をとり、 ロックアウト解除のため自分宛てにFTSによるファイル転送を依頼します。<br>(2)ユーザがファイル転送を行うと、 ゲストのロックアウトが解除されると同時に送信通知メールと新たなパスワードが送信されます。<br>(3)ロックアウトが解除されていますので 、新たなパスワードでログインがきるようになります。"
+
+msgid "Unlocking application of %s is performed.　Ok?"
+msgstr "%s のロックアウト解除申請を行います。よろしいですか？"
+
+msgid "Lockout release application"
+msgstr "ロック解除の申請"
+
+msgid "The lockout release application mail was transmitted."
+msgstr "ロックアウト解除申請メールを送信しました。"
+
+msgid "The guide and the password of release will be issued with mail after release is completed, and confirm it, please."
+msgstr "解除完了後、解除の案内及びパスワードをメールにて発行致しますので、ご確認下さい。"
+
+msgid "You couldn't apply."
+msgstr "申請できませんでした。既に申請が済んでいる可能性があります。"
+
+msgid "Lockout Status"
+msgstr "ロックアウト"
+
+msgid "Lockout(Applying)"
+msgstr "ロックアウト(申請中)"
+
+msgid "Lockout(by Admin)"
+msgstr "ロックアウト<br>(管理者による)"
+
+msgid "None"
+msgstr "なし"
+
+msgid "Lock"
+msgstr "ロックアウトする"
+
+msgid "Unlock"
+msgstr "ロックアウトを解除する"
+
+msgid "Are you sure you want to release [%s] from lockout?"
+msgstr "[%s] を本当にロックアウト解除してよいですか？"
+
+msgid "Are you sure you want to lockout [%s] ?"
+msgstr "[%s] を本当にロックアウトしてよいですか？"
+
+msgid "Locked."
+msgstr "ロックアウトしました。"
+
+msgid "Unlocked."
+msgstr "ロックアウトを解除しました。"
+
+#---------------------------------------------------
+#: スタンレー入力オプション
+#---------------------------------------------------
+
+msgid "Antivirus scan"
+msgstr "アンチウイルス検査"
+
+msgid "PDF Conversion"
+msgstr "PDF変換"
+
+msgid "TFG Encryption"
+msgstr "TFG暗号化"
+
+msgid "ZIP Archive"
+msgstr "ZIP暗号化"
+
+msgid "TFG Message1"
+msgstr "取引先様に対し、事前準備が必要な機能になります。<br>"
+"指定されているお取引先様以外に本機能にチェックを入れて送信された場合、送信先の方はファイルを開くことができませんので、ご注意ください。<br>"
+"詳細につきましては主管部門までお問い合わせください。<br>"
+
+msgid "ZIP Message"
+msgstr "送信されたファイルがパスワード付きZIPで取引先様へ送信されます。"
+
+msgid "Permit"
+msgstr "許可"
+
+msgid "Forbid"
+msgstr "禁止"
+
+msgid "Printing of PDF"
+msgstr "PDFの印刷"
+
+msgid "Inspection term"
+msgstr "閲覧期限"
+
+# -- stanley.po へ移動
+#msgid "**Remark before Transmission"
+#msgstr "【送信前確認事項】"
+#
+#msgid "Secret Message1"
+#msgstr "1.送信するデータが技術情報以外の秘密情報の場合。<br>"
+#"   ...機密保持契約などを締結している相手先への送信です。<br>"
+#"2.送信するデータが技術情報の場合<br>"
+#"   ...「技術情報利用に関する契約書」を締結している相手先への送信です。<br>"
+#"宛先に含まれるすべての相手先につき、1.2.を満たしていることを確認しました。<br>"
+
+msgid "I agree"
+msgstr "確認しました"
+
+msgid "Download Message1"
+msgstr "「禁止」を選択すると受信者は、PDFファイルをダウンロードすることができません。<br>"
+"%s の画面内のみでPDFファイルを閲覧することができます。"
+
+msgid "PDF Message1"
+msgstr "「禁止」を選択すると受信者は、PDFファイルを印刷することができません。"
+
+msgid "Inspection Message1"
+msgstr "ファイルをアップロードした日から、選択した期間だけ、受信者はPDFファイルを開くことが可能です。<br>"
+"選択した期間超過後は、PDFファイルを開くことが出来なくなります。<br>"
+"※選択した期間は、ファイルをアップロードした日から起算します。<br>"
+"　承認された日とは異なりますので、ご注意ください。"
+
+msgid "Inspection Message2"
+msgstr "閲覧期限は、ファイル保管期限となります。"
+
+msgid "file safekeeping period"
+msgstr "ファイル保管期限"
+
+msgid "Now sending ..."
+msgstr "処理中　・・・・"
+
+msgid "Now doing ..."
+msgstr "処理中　・・・・"
+
+msgid "Cancellation"
+msgstr "キャンセル"
+
+msgid "The extension which is not supported was found."
+msgstr "サポートされていない拡張子が見つかりました。"
+
+msgid "Please confirm the uploaded files."
+msgstr "アップロードしたファイルを確認してください。"
+
+msgid "I agree chk"
+msgstr "同意します"
+
+msgid "Please select an approver."
+msgstr "承認者を選択してください。"
+
+msgid "E-mail is transmitted, when the password is set."
+msgstr "パスワードをセットした場合、メールを送信します"
+
+msgid "File format is invalid."
+msgstr "ファイル形式が無効です。"
+
+msgid "Mail sent"
+msgstr "メール送信済み"
+
+msgid "Are you sure you want to delete %s from a link?"
+msgstr "%s のリンクを本当に削除してよいですか？"
+
+msgid "Select logo"
+msgstr "ロゴ選択"
+
+msgid "Delete logo"
+msgstr "ロゴ削除"
+
+msgid "The extension is not image."
+msgstr "画像ファイルの拡張子ではありません。"
+
+msgid "The size of the file has to be less than %s."
+msgstr "ファイルの大きさは　%s 以下でなければなりません。"
+
+msgid "Set an image file within size less than %s."
+msgstr "%s 以内の画像ファイルを指定してください。"
+
+msgid "The remaining capacity was less than %s ."
+msgstr "ディスク残り使用量が %s を切りました。"
+
+msgid "You can't upload files for the disk capacity limitation."
+msgstr "ディスク使用量が制限を超えたため、アップロードが制限されています。"
+
+msgid "You can't upload files."
+msgstr "新規アップロードはできません。"
+
+msgid "Mail Server Settings"
+msgstr "メールサーバ設定"
+
+msgid "Failed in upload of [　%s　]. : %s"
+msgstr "アップロードに失敗しました。　[　%s　] : %s"
+
+msgid "UPLOAD_ERR_INI_SIZE"
+msgstr "ファイルサイズが、システムの制限値を超えています。"
+
+msgid "UPLOAD_ERR_FORM_SIZE"
+msgstr "ファイルサイズが、許可された設定値を超えています。"
+
+msgid "UPLOAD_ERR_PARTIAL"
+msgstr "アップロードが途中で失敗しました。"
+
+msgid "UPLOAD_ERR_NO_TMP_DIR"
+msgstr "テンポラリフォルダがありません。"
+
+msgid "UPLOAD_ERR_CANT_WRITE"
+msgstr "ディスクへの書き込みに失敗しました。"
+
+msgid "UPLOAD_ERR_EXTENSION"
+msgstr "PHP の拡張モジュールがファイルのアップロードを中止しました。"
+
+msgid "UPLOAD_ERR_UNKNOWN"
+msgstr "アップロード中に何らかのエラーが発生しました。"
+
+msgid "The password history was erased."
+msgstr "パスワード履歴を消去しました。"
+
+msgid "The password history can NOT erased."
+msgstr "パスワード履歴の消去に失敗しました。"
+
+msgid "Please choose contract."
+msgstr "契約を選択してください。"
+
+msgid "You can not send it to yourself."
+msgstr "自己送信はできません。"
+
+msgid "To addressbook"
+msgstr "アドレス帳に登録"
+
+msgid "Users　Registration to addressbook　Confirmation"
+msgstr "ユーザ一括アドレス帳登録確認"
+
+msgid "add_address_msg"
+msgstr "以下のユーザをアドレス帳に登録します。よろしいですか？"
+
+msgid "Address book to register"
+msgstr "登録するアドレス帳"
+
+msgid "Please select processing of registered data."
+msgstr "登録済みのデータの処理を選択して下さい。"
+
+msgid "New Data/Registered Data"
+msgstr "新規/登録済み"
+
+msgid "Registration has completed."
+msgstr "登録が完了しました。"
+
+msgid "Users　Registration to addressbook　Complete"
+msgstr "ユーザ一括アドレス帳登録完了"
+
+msgid "Registered"
+msgstr "登録済み"
+
+msgid "Include subdivisions"
+msgstr "下位部門を含める"
+
+msgid "You can not apply."
+msgstr "申請できません。"
+
+msgid "Simple_Manual"
+msgstr "簡易マニュアル"
+
+msgid "Guests_Manual"
+msgstr "ゲストマニュアル"
+
+msgid "Users_Manual"
+msgstr "ユーザマニュアル"
+
+msgid "Admins_Manual"
+msgstr "管理者マニュアル"
+
+msgid "About a detailed retrieval method"
+msgstr "詳しい検索方法について"
+
+msgid "The contract has expired.Please contact your sales representative."
+msgstr "契約期限が切れました。営業のご担当者様にご相談ください。"
+
+msgid "User　Name"
+msgstr "ユーザ名"
+
+msgid "Server Name"
+msgstr "サーバー名"
+
+msgid "Port"
+msgstr "ポート"
+
+msgid "Test mail destination"
+msgstr "テストメール<br>送信先"
+
+msgid "Send test mail"
+msgstr "テストメール送信"
+
+msgid "Test_Mail_Message1"
+msgstr "設定したサーバ情報が正しいか確認するため、テストメール送信を行ってください。<br>"
+"以下で指定した送信先にテストメールが届かない場合は、設定を見直してください。"
+
+msgid "Test_Mail_Message2"
+msgstr "テストメール送信にて通信の確認がなされていない場合、当サイトでは本機能の動作を<br>保証するものではありません。"
+"予めご了承ください。"
+
+msgid "I sent a test mail to [%s].Please check if the mail has arrived."
+msgstr "[%s] にテストメールを送信しましました。メールが届いているか確認してください。"
+
+msgid "Settings saved."
+msgstr "設定を保存しました。"
+
+msgid "Mail transmission failed. Please check whether the setting is correct."
+msgstr "メール送信に失敗しました。設定が正しいか確認してください。"
+
+msgid "Test mail destination　is blank."
+msgstr "テストメール送信先が空欄です。"
+
+msgid "Server Name　is blank."
+msgstr "サーバ名が空欄です。"
+
+msgid "Port　is blank."
+msgstr "ポートが空欄です。"
+
+msgid "Password　is blank."
+msgstr "パスワードが空欄です。"
+
+msgid "Port is not numerical value."
+msgstr "ポートが数値ではありません。"
+
+msgid "Standard"
+msgstr "標準"
+
+msgid "Employee ID"
+msgstr "社員ID"
+
+msgid "It is a user that can not be edited."
+msgstr "編集できないユーザです。"
+
+msgid "Delete file"
+msgstr "送信ファイル削除"
+
+msgid "The file has been deleted."
+msgstr "ファイルは削除されました。"
+
+msgid "The file has not been deleted."
+msgstr "ファイルは削除されませんでした。"
+
+msgid "Are you sure you want to delete %s files?"
+msgstr "%s ファイル削除します。よろしいですか？"

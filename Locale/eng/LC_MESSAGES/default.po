@@ -1,0 +1,324 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-04-22 13:35+0900\n"
+"PO-Revision-Date: 2014-04-22 14:36+0900\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja_JP\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: c:\\xampp\\htdocs\\fts_v5\\app\n"
+
+msgid "Browser Notice"
+msgstr "<p class='browsehappy'>You are using an <strong>outdated</strong> browser. Please <a href='http://browsehappy.com/'>upgrade your browser</a> to improve your experience.</p>"
+
+#: View/Contents/index.ctp:6 View/Roles/index.ctp:42
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr " {:start} - {:end} out of {:count} [　{:page} / {:pages} Pages ]"
+
+#: View/Roles/view.ctp:79
+msgid "jpn"
+msgstr "Japanese"
+
+#: View/Roles/view.ctp:80
+msgid "eng"
+msgstr "English"
+
+#: 期限切れ
+
+msgid "Expend message"
+msgstr "After completion of your application, the administrator would extend your period. <br>"
+"<a href='%s' target='_blank'>The guide of continuance is here.</a><br>"
+
+msgid "ExpRenew message"
+msgstr "After completion of your application, the administrator would extend your period.Please wait for a while.<br>"
+"<a href='%s' target='_blank'>The guide of continuance is here.</a>"
+"Format download<a href='%s' target='_blank'>pdf download.</a>"
+
+msgid "exprenew msg 2-a"
+msgstr "The application for Extention of period from [%s] is being issued, is it Ok?"
+
+msgid "exprenew msg 2-b"
+msgstr "After completion of your application, the administrator would extend your period.Please wait for a while.<br>"
+"Format download<a href='%s' target='_blank'>pdf download.</a>"
+
+
+## for example :
+## $theme = 'default';
+## __d($theme,'Agreement');
+##
+
+msgid "Agreement document"
+msgstr "<h4>Agreement:</h4>"
+"Data to be downloaded hereunder are strictly confidential information of %1\$s Inc.<br>"
+"Downloading of data is permitted only to those who agree to the followings:<br>"
+"<br>"
+"1. You do not use the downloaded data for any purpose other than to perform transaction with %1\$s Inc.<br>"
+"2. You do not disclose the downloaded data to any third party without permission by %1\$s Inc.<br>"
+"3. Downloaded data are kept under your strict control to prevent unauthorized disclosure, theft or loss.<br>"
+"<br>"
+"<br>"
+"<ul class='list-inline'>"
+"<li>I</li>"
+"<li> %2\$s </li>"
+"<li> %3\$s </li>"
+"<li> with the above confidentiality obligation.</li>"
+"</ul><br> "
+
+
+msgid "Agreement Note"
+msgstr "Note: <br>Violation of the above confidentiality obligation may be subject to punishment under law."
+
+## パスワードセキュリティ
+
+
+msgid "moji_s"
+msgstr "　Characters for the password must be alphanumeric.<br>"
+"Both of capital letters and small letters are OK and<br>"
+"a normal-width sign ! # $ % & * + - . / : = ? ^ _ <br>"
+
+msgid "moji_a"
+msgstr "　Characters for the password must be alphanumeric.<br>"
+"Both of capital letters and small letters are OK.<br>"
+
+msgid "(A-Z) (a-z) (0-9)"
+msgstr "The password must include at least 1 alphabet(A-Z,a-z), and at least 1 number(0-9).<br>"
+
+msgid "(A-Za-z) (0-9)"
+msgstr "The password must include at least 1 alphabet(A-Za-z), and at least 1 number(0-9)..<br>"
+
+msgid "Length Requirements For Password is %d or more to %d or less.<br>"
+msgstr "The password length must be 8 ~ 32.<br>"
+
+msgid "The password of %d times in the past cannot be used. Please register a new password.<br>"
+msgstr "You can not use the same password as one of the latest %d previous passwords for a new one.<br>"
+
+msgid "The validity term of the registered password is %d days.<br>"
+msgstr "The validity term of the password is 90 days.<br>"
+
+msgid "mkpass msg 2-a"
+msgstr "Start the process for change the password.　[%s]"
+
+msgid "mkpass msg 3-a"
+msgstr "We've sent instructions to your email address."
+"Please confirm it, Thank you."
+
+msgid "div_jpn"
+msgstr "Division(Japanese)"
+
+msgid "div_eng"
+msgstr "Division(English)"
+
+msgid "Rejected automatically."
+msgstr "Approval deadline"
+
+msgid "(Automatically)"
+msgstr "(Approval deadline)"
+
+msgid "Addressgroup"
+msgstr "Addressbook"
+
+msgid "The %s remainder days are %d days."
+msgstr "Attention! The countdown has begun. The number of days for your %s valid period left is %d ."
+
+msgid "The guide of continuance is here."
+msgstr "Click here for the guidance of extention."
+
+msgid "custom_01"
+msgstr "Employee ID"
+
+msgid "custom_02"
+msgstr "Company Name"
+
+msgid "Name Yomi"
+msgstr "Name Kana"
+
+msgid "Div Yomi"
+msgstr "Div Kana"
+
+msgid "New password is doesn't match a rule."
+msgstr "New password violates rule"
+
+msgid "The same password as the present cannot be specified."
+msgstr "You may not use the same password as current one."
+
+msgid "New password is in a password history."
+msgstr "New password has been used in the past. Specify new one."
+
+msgid "New Passwords do not match, please try again."
+msgstr "New password confirmation failed. Enter password carefully again."
+
+msgid "Group"
+msgstr "Authority"
+
+msgid "template_data"
+msgstr "Template text"
+
+msgid "Putdate"
+msgstr "Opened"
+
+msgid "Outdate"
+msgstr "Closed"
+
+msgid "import_confirm_msg"
+msgstr "The following data is being imported."
+
+#---------------------------------------------------
+#: 期限切れメッセージ
+#---------------------------------------------------
+
+msgid "experr1"
+msgstr "Sorry, Your period expired."
+
+msgid "This service expired."
+msgstr "Your permission has expired."
+
+msgid "Extension application"
+msgstr "Application for Extention"
+
+msgid "Extension application of period"
+msgstr "Application for Extention of period"
+
+#---------------------------------------------------
+#: ロックアウト
+#---------------------------------------------------
+
+msgid "Login ID is locked."
+msgstr "The referenced account is Locked Out"
+
+msgid "Resolution"
+msgstr "In order to unlock your locked account, the following procedure is required."
+
+msgid "Resolution2"
+msgstr "(1) Make contact with the USER member by phone or email, and request to re-send any file with FTS to you.<br>(2) Once the USER member re-send the file to you, your account would be unlocked and the new notification and password mail would be sent to you. <br>(3) Then you will be able to log in to FTS system again with the new password."
+
+msgid "Please do the release application clicking the following buttons to release the lock."
+msgstr "In order to request releasing the lockout, click the following button."
+
+#---------------------------------------------------
+#: スタンレー入力オプション
+#---------------------------------------------------
+msgid "TFG Message1"
+msgstr "This function is available for the specific clients only.<br>"
+"If sending file with this function to the other clients, files could not be opened.<br>"
+"For more detail, please make contact with the responsible department.<br>"
+
+msgid "ZIP Message"
+msgstr "Sent files will be zipped with a password before being delivered."
+
+msgid "Secret Message1"
+msgstr "1. In case of transferred data including non-technical confidential information.<br>"
+"The transaction is accepted only for the partner who has concluded“nondisclosure agreement”.<br>"
+"2. In case of transferred data including technical confidential information.<br>"
+"The transaction is accepted only for the partner who has concluded “Contract of dealing technical and confidential information”<br>"
+"If you are sure the statement above, please check the following box.<br>"
+
+msgid "Download Message1"
+msgstr "A Receiver can not download the PDF file, if the [Forbid] option selected.<br>"
+"A PDF file can be perused only in the screen of %s."
+
+msgid "PDF Message1"
+msgstr "A Receiver can not print the PDF file, if the [Forbid] option selected."
+
+msgid "Inspection Message1"
+msgstr "A receiver can open the PDF file during the selected period which begins on the file uploaded date.<br>"
+"Please keep in mind that the begining of the period is not approved date."
+
+msgid "Inspection Message2"
+msgstr "Exposing period will be a file safekeeping period."
+
+msgid "I agree"
+msgstr "I have confirmed"
+
+msgid "I agree chk"
+msgstr "I agree"
+
+msgid "Enable"
+msgstr "Execute"
+
+msgid "Needlessness"
+msgstr "Bypass"
+
+msgid "Inspection term"
+msgstr "Exposing period"
+
+msgid "I edit members"
+msgstr "Arrange members"
+
+msgid "Modify %s"
+msgstr "Edit %s"
+
+msgid "HTML tags are not reflected."
+msgstr "HTML tags are not available."
+
+msgid "Valid"
+msgstr "Expose"
+
+msgid "Invalid"
+msgstr "Hide"
+
+msgid "Are you sure you want to delete %s from a link?"
+msgstr "Are you sure you want to delete a link of %s from the section ?"
+
+msgid "UPLOAD_ERR_INI_SIZE"
+msgstr "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+
+msgid "UPLOAD_ERR_FORM_SIZE"
+msgstr "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form."
+
+msgid "UPLOAD_ERR_PARTIAL"
+msgstr "he uploaded file was only partially uploaded."
+
+msgid "UPLOAD_ERR_NO_TMP_DIR"
+msgstr "Missing a temporary folder."
+
+msgid "UPLOAD_ERR_CANT_WRITE"
+msgstr "Failed to write file to disk."
+
+msgid "UPLOAD_ERR_EXTENSION"
+msgstr "File upload stopped by extension."
+
+msgid "UPLOAD_ERR_UNKNOWN"
+msgstr "Unknown upload error."
+
+msgid "Please enter in the valid date format."
+msgstr "Enter the date in proper format."
+
+msgid "Comment to authorizer"
+msgstr "Comment to approver"
+
+msgid "Approval request"
+msgstr "Approver"
+
+msgid "Approval request comment"
+msgstr "Comment to approver"
+
+msgid "message"
+msgstr "Comment to customer"
+
+msgid "Test_Mail_Message1"
+msgstr "Please make a test transmission to confirm that the set server information is correct.<br>"
+"If the test mail does not arrive at the specified destination, please reconsider the setting."
+
+msgid "Test_Mail_Message2"
+msgstr "If communication is not confirmed by sending test mail,<br> this site does not guarantee the operation of this function. Please note."
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
