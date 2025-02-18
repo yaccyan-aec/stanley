@@ -1,0 +1,32 @@
+#!/bin/sh
+
+# -- 絶対パスを取得
+#MyPath=$(cd $(dirname $0);pwd)
+
+# -- 共通設定をインクルード
+#. ${MyPath}/getmybase
+
+
+PATH=/bin:/usr/local/bin:/usr/bin:
+
+# 個別設定項目 ===========================================
+# PSCAN 実行中かどうか調べるダミー呼び出し
+#-------------------------------------------
+Command=/usr/bin/winexe
+
+# パラメータ
+# $1 user
+# $2 password
+# $3 ip
+# $4 バッチ fullpath
+# for test ========================================================
+
+USER=$1
+PASSWORD=$2
+IP=$3
+PATH=$4
+
+# 直接書くとこんな感じで呼ばれる
+#/usr/bin/winexe -U administrator%me10@aecnet //192.168.1.133 "c:\\cake2\\pscan\\bin\\calldmy.bat" 
+
+${Command}  --user=${USER}%${PASSWORD} //${IP}  "${PATH}/calldmy.bat "

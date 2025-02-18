@@ -1,0 +1,12 @@
+#!/bin/sh
+# -- 絶対パスを取得
+MyPath=$(cd $(dirname $0);pwd)
+# -- 共通設定をインクルード
+. ${MyPath}/getmybase
+cd ${RootPath}/app
+# --- 本番
+#echo ${MyPath}
+echo ${RootPath}
+#echo ${DataPath}
+# ${RootPath}/app/Console/cake AutoStore.AutoStoredFileDel>> ${DataPath}/tmp/${MyBaseFile}_asfiledel.log -app ${RootPath}/app
+php ${RootPath}/app/Console/cake.php AutoStore.AutoStoredFileDel >> ${DataPath}/tmp/${MyBaseFile}_asfiledel.log -app ${RootPath}/app

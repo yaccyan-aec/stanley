@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# -- 絶対パスを取得
+MyPath=$(cd $(dirname $0);pwd)
+
+# -- 共通設定をインクルード
+. ${MyPath}/getmybase
+
+DATE=`date +%w`
+cd ${RootPath}/app
+${RootPath}/app/Console/cake Errmails.ChkMail  >> ${DataPath}/tmp/${MyBaseFile}_chkmail_${DATE}.log -app ${RootPath}/app
+

@@ -1,0 +1,45 @@
+#!/bin/sh
+PATH=/bin:/usr/local/bin:/usr/bin:
+TERM=xterm
+
+# 個別設定項目 ===========================================
+# Windows コマンド呼び出し用コマンド
+#-------------------------------------------
+Command=/usr/bin/winexe
+
+# Windows パラメータ
+#-------------------------------------------
+#JAR=c:/fts2/TFGConv.jar
+#IN=c:/fts2/i/
+#OUT=c:/fts2/o/
+#PROP=c:/fts2/TFGConv.properties
+
+# パラメータ
+# $1 変換ファイル名
+# $2 user
+# $3 password
+# $4 ip
+# $5 実行jar fullpath
+# $6 input path
+# $7 output path
+# $8 protpaties file fullpath
+
+# for test ========================================================
+DATE=`date +%Y%m%d%H%M%S`
+echo $0;
+
+# for test ========================================================
+
+FILE=$1
+USER=$2
+PASSWORD=$3
+IP=$4
+JAR=$5
+IN=$6
+OUT=$7
+PROP=$8
+
+# 直接書くとこんな感じで呼ばれる
+# /usr/local/samba/bin/winexe -U me10%aec3750 //192.168.0.160 "java -jar c:\\fts2\\TFGConv.jar -a c:\\fts2\\i\\${1} c:\\fts2\\o\\${1}.${DATE} -p c:\\fts2\\TFGConv.properties" 
+
+${Command}  --user=${USER}%${PASSWORD} //${IP}  "java -jar ${JAR} -a ${IN}${FILE} ${OUT}${FILE} -p ${PROP}"

@@ -1,0 +1,36 @@
+# 共通項目をまとめて設定 ===========================================
+# https://192.168.1.107/fts_new/users/login
+# https://aec-fts2.jsy.ne.jp/fts_new/users/login
+# ==================================================================
+PATH=/bin:/usr/local/bin:/usr/bin
+
+# --- rootpath サーバ共通
+
+Command=/usr/local/samba/bin/winexe
+
+WebRoot=/data/vhost/aec-fts2/wwwroot
+DataRoot=/data/vhost/aec-fts2
+
+# --- system システム個別
+
+MyWeb=fts_new
+MyDat=fts_new
+
+# --- ↓はあとで調整
+MyDB=fts_demo
+MyDB_IGNORE=fts2_syslogs
+
+USER=web
+PSWD=aec3750
+
+# ========================================================
+
+DATAPATH=${DataRoot}/${MyDat}/backup
+
+DBNAME=${MyDB}
+IGNORE1=${MyDB_IGNORE}
+
+RootPath=${WebRoot}/${MyWeb}
+LogPath=${DataRoot}/${MyDat}/tmp
+DataPath=${DataRoot}/${MyDat}
+

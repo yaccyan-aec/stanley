@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# -- 絶対パスを取得
+MyPath=$(cd $(dirname $0);pwd)
+
+# -- 共通設定をインクルード
+. ${MyPath}/getmybase
+
+# 月1で契約ごとにログcsv を出力
+# それぞれの契約＋全体
+# パラメータの例
+# ./createsyslog 1 --- デフォルト（先月のデータを取る）省略時
+# ./createsyslog 0 --- 今月のデータを取る
+# ./createsyslog 3 --- 3 ヶ月前のデータを取る
+
+DATE=`date +%w`
+cd ${RootPath}/app
+${RootPath}/app/Console/cake Syslogs.CreateSyslog -p "$@" -app ${RootPath}/app
+

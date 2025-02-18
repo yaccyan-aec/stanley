@@ -1,0 +1,33 @@
+# 共通項目をまとめて設定 ===========================================
+#
+# システムごとに変更するもの：
+#
+#	DataRoot : サーバ内部のデータ保存フォルダのROOTをフルパスで指定
+#	MyDB : 使用するDB 名
+# 　MyDB_IGNORE : ダンプをとるとき分割したいファイル
+#	USER : DBアクセス用のユーザID
+#	PSWD : DBアクセス用のパスワード
+# ==================================================================
+PATH=/bin:/usr/local/bin:/usr/bin
+# --- rootpath サーバ共通
+Command=/usr/local/samba/bin/winexe
+# --- system システム個別　データ領域フルパス
+# --- 最後のスラッシュは不要
+# Config/Env/xxxx.php の 'MY_DATA' と合わせる
+DataRoot=/data/shard/data
+# --- ↓はあとで調整
+# 使用するDB
+# Config/Env/xxxx.php の 'VALUE_default_database' と合わせる
+MyDB=fts5
+# ダンプのとき分離するテーブル(未使用）
+# MyDB_IGNORE=fts_eventlogs
+# db access
+USER=web
+PSWD=aec3750
+# ========================================================
+DATAPATH=${DataRoot}/backup
+DBNAME=${MyDB}
+#IGNORE1=${MyDB_IGNORE}
+RootPath=$(cd $(dirname $0)/../.. ; pwd)
+LogPath=${DataRoot}/tmp
+DataPath=${DataRoot}

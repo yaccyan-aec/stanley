@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# -- 絶対パスを取得
+MyPath=$(cd $(dirname $0);pwd)
+
+# -- 共通設定をインクルード
+. ${MyPath}/getmybase
+
+DATE=`date +%w`
+cd ${RootPath}/app
+
+
+# --- 本番↓
+${RootPath}/app/Console/cake AlertMail -p "$@" 2>> ${DataPath}/tmp/fts_alert_${DATE}.log -app ${RootPath}/app
+
+# --- test↓
+#${RootPath}/app/Console/cake AlertMail -p "$@"

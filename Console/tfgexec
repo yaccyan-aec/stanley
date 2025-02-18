@@ -1,0 +1,55 @@
+#!/bin/sh
+
+# -- 絶対パスを取得
+#MyPath=$(cd $(dirname $0);pwd)
+
+#echo $MyPath;
+# -- 共通設定をインクルード
+#. ${MyPath}/getmybase
+
+
+PATH=/bin:/usr/local/bin:/usr/bin:
+TERM=xterm
+
+# 個別設定項目 ===========================================
+# Windows コマンド呼び出し用コマンド
+#-------------------------------------------
+Command=/usr/bin/winexe
+
+# Windows パラメータ
+#-------------------------------------------
+#JAR=c:/fts2/TFGConv.jar
+#IN=c:/fts2/i/
+#OUT=c:/fts2/o/
+#PROP=c:/fts2/TFGConv.properties
+
+# パラメータ
+# $1 変換ファイル名
+# $2 user
+# $3 password
+# $4 ip
+# $5 実行jar fullpath
+# $6 input path
+# $7 output path
+# $8 protpaties file fullpath
+
+# for test ========================================================
+DATE=`date +%Y%m%d%H%M%S`
+echo $0;
+
+# for test ========================================================
+
+FILE=$1
+USER=$2
+PASSWORD=$3
+IP=$4
+JAR=$5
+IN=$6
+OUT=$7
+PROP=$8
+
+# 直接書くとこんな感じで呼ばれる
+#/usr/bin/winexe -U administrator%me10@aecnet //192.168.1.133 "java -jar c:\\cake2\\TFGConv.jar -a c:\\cake2\\i\\${1} c:\\cake2\\o\\${1}.${DATE} -p c:\\cake2\\TFGConv.properties" 
+
+${Command}  --user=${USER}%${PASSWORD} //${IP} "java -jar ${JAR} -a ${IN}${FILE} ${OUT}${FILE} -p ${PROP}"
+

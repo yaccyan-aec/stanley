@@ -1,0 +1,20 @@
+#!/bin/sh
+
+# -- 絶対パスを取得
+MyPath=$(cd $(dirname $0);pwd)
+
+# -- 共通設定をインクルード
+. ${MyPath}/getmybase
+
+echo $DataRoot
+
+DATE=`date +%Y%m%d%H%M%S`
+cd $DATAPATH
+
+echo Dumping ${MyBaseFile} database...
+mysqldump --order-by-primary --skip-extended-insert ${DBNAME} --user=${USER} --password=${PSWD} > ${MyBaseFile}_${DATE}_all.sql
+echo Archiving the dumped...
+tar -zcvf ${MyBaseFile}_${DATE}.tar.gz ${MyBaseFile}_${DATE}_*.sql
+echo Removing the dumped...
+rm -f ${MyBaseFile}_${DATE}_*.sql
+echo Completed.

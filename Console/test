@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# -- 絶対パスを取得
+MyPath=$(cd $(dirname $0) ; pwd)
+
+# -- ドキュメントルート以下のこのベースフォルダの名前を取得
+# -- その名前を、mybase として使用する
+# 以前は、Templates/mybase ファイルに記載していたが今後は
+# システムごとの Env/xxxx.php の　xxxx と一致したファイル名となる
+RootPath=$(cd $(dirname $0)/../.. ; pwd)
+MyBaseFile=${RootPath##*/}
+
+echo ${MyPath}
+
+# -- 共通設定をインクルード
+. ${MyPath}/Templates/${MyBaseFile}
+
